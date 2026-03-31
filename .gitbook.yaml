@@ -1,0 +1,8 @@
+# .gitbook.yaml
+# This file tells GitBook how your repo is structured
+
+root: ./
+
+structure:
+  readme: uz/README.md
+  summary: uz/SUMMARY.md
