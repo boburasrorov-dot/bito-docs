@@ -1,0 +1,22 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+---
+
+# Инструменты
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 5 минут</mark></sub></td><td><h4><strong>Прайс-лист</strong></h4></td><td>Все товары и их цены</td><td><a href="narx-royxati.md">narx-royxati.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 минут</mark></sub></td><td><h4><strong>Центр экспорта</strong></h4></td><td>Все экспорты, выполненные пользователями системы</td><td><a href="exportlar-markazi.md">exportlar-markazi.md</a></td></tr></tbody></table>

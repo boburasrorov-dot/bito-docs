@@ -1,0 +1,22 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+---
+
+# Distribution
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 20 minutes</mark></sub></td><td><h4><strong>Visit Schedule</strong></h4></td><td>A section designed for pre-planning visits to customers by agents and managing them in an organized manner.</td><td><a href="tashrif-uchun-reja.md">tashrif-uchun-reja.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Daily Visits</strong></h4></td><td>Used to view and monitor visits that need to be carried out on a selected date.</td><td><a href="kunlik-tashriflar.md">kunlik-tashriflar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Agent Locations</strong></h4></td><td>Enables near real-time monitoring of agents' location and activity on the map.</td><td><a href="agentlar-joylashuvi.md">agentlar-joylashuvi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Visits</strong></h4></td><td>A section designed to view all completed visits and their results.</td><td><a href="tashriflar.md">tashriflar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4>Photo Report Type</h4></td><td>Allows defining types and requirements for photo reports submitted by agents.</td><td><a href="rasm-hisobot-turi.md">rasm-hisobot-turi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4>Video Report Type</h4></td><td>Used to configure types and requirements for video reports submitted by agents.</td><td><a href="vidoe-hisobot-turi.md">vidoe-hisobot-turi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Cancellation Reasons</strong></h4></td><td>Records reasons when visits or operations are cancelled and saves them for later analysis.</td><td><a href="bekor-qilish-sabablari.md">bekor-qilish-sabablari.md</a></td></tr></tbody></table>
