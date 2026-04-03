@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - 'uz/**'          # Only trigger when Uzbek docs change
+      - 'uz/**'
 
-  workflow_dispatch:     # Allow manual trigger from GitHub UI
+  workflow_dispatch:
     inputs:
       translate_all:
         description: 'Translate ALL pages (not just changed ones)'
@@ -20,26 +20,19 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write    # Needed to push translated files back
+      contents: write
 
     steps:
-      # ── 1. Checkout the repo ────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2   # Need previous commit to detect changed files
+          fetch-depth: 2
 
-      # ── 2. Set up Python ────────────────────────────────────────────────────
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # ── 3. Install dependencies ─────────────────────────────────────────────
-      - name: Install dependencies
-        run: pip install anthropic
-
-      # ── 4. Get list of changed Uzbek files ─────────────────────────────────
       - name: Get changed files
         id: changed
         run: |
@@ -47,27 +40,23 @@ jobs:
             echo "Translating ALL files..."
             echo "files=" >> $GITHUB_OUTPUT
           else
-            FILES=$(git diff --name-only HEAD~1 HEAD -- 'uz/**' | tr '\n' '\n')
-            echo "Changed files:"
-            echo "$FILES"
+            FILES=$(git diff --name-only HEAD~1 HEAD -- 'uz/**')
+            echo "Changed files: $FILES"
             echo "files<<EOF" >> $GITHUB_OUTPUT
             echo "$FILES" >> $GITHUB_OUTPUT
             echo "EOF" >> $GITHUB_OUTPUT
           fi
 
-      # ── 5. Run translation ──────────────────────────────────────────────────
       - name: Translate changed pages
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ -z "${{ steps.changed.outputs.files }}" ]; then
-            # Translate everything (manual trigger with translate_all=true)
             python scripts/translate.py \
               --uz-dir uz \
               --out-dir . \
               --languages ru,en
           else
-            # Translate only changed files
             python scripts/translate.py \
               --uz-dir uz \
               --out-dir . \
@@ -75,22 +64,15 @@ jobs:
               --changed-files "${{ steps.changed.outputs.files }}"
           fi
 
-      # ── 6. Commit and push translated files ─────────────────────────────────
       - name: Commit translations
         run: |
           git config --local user.email "bot@bito.uz"
           git config --local user.name "BITO Translator Bot"
-
           git add ru/ en/
-
-          # Only commit if there are changes
           if git diff --staged --quiet; then
-            echo "✅ No new translations to commit."
+            echo "No new translations to commit."
           else
-            git commit -m "🌐 Auto-translate: update RU & EN docs
-
-          Triggered by: ${{ github.actor }}
-          Source commit: ${{ github.sha }}"
+            git commit -m "Auto-translate: update RU & EN docs"
             git push
-            echo "✅ Translations pushed successfully."
+            echo "Translations pushed!"
           fi
