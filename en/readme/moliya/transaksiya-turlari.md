@@ -17,53 +17,53 @@ layout:
     visible: true
 ---
 
-# Transaction Types
+# Transaksiya turlari
 
 <details open>
 
-<summary>Creating Transaction Types</summary>
+<summary>Transaksiya turlari yaratish </summary>
 
-**The Transaction Types section** is used to create and manage types (categories) for all financial operations in the system. This section serves to organize income and expense operations, properly classify them, and clearly distinguish them in reports.
+**Tranzaksiya turlari bo‘lim**i orqali tizimda barcha moliyaviy operatsiyalar uchun tur (kategoriya)lar yaratiladi va boshqariladi. Ushbu bo‘lim kirim va chiqim operatsiyalarini tartibga solish, ularni to‘g‘ri klassifikatsiya qilish hamda hisobotlarda aniq ajratib ko‘rsatish uchun xizmat qiladi.
 
-Users can view existing transaction types, activate them, or add new types in this section.
+Foydalanuvchi ushbu bo‘limda mavjud tranzaksiya turlarini ko‘rishi, ularni faollashtirishi yoki yangi tur qo‘shishi mumkin.
 
 <figure><img src="../../.gitbook/assets/image (422).png" alt=""><figcaption></figcaption></figure>
 
-#### Viewing and Filtering Transaction Types
+#### Tranzaksiya turlarini ko‘rish va filtrlash
 
-Transaction types in the section are displayed in two main directions:
+Bo‘limda tranzaksiya turlari ikki asosiy yo‘nalishda ko‘rsatiladi:
 
-* **Income** — operations representing money inflow to the system
-* **Expense** — operations representing money outflow from the system
+* **Kirim** — tizimga pul kirimini ifodalovchi operatsiyalar
+* **Chiqim** — tizimdan pul chiqimini ifodalovchi operatsiyalar
 
-When a user selects either the **Income** or **Expense** button, only the list of transaction types belonging to that category appears. This helps manage operations quickly and accurately.
+Foydalanuvchi **Kirim** yoki **Chiqim** tugmalaridan birini tanlaganda, faqat shu turga tegishli tranzaksiya turlari ro‘yxati chiqadi. Bu esa operatsiyalarni tez va aniq boshqarishga yordam beradi.
 
 <figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (465).png" alt=""><figcaption></figcaption></figure>
 
-#### Creating a Transaction Type
+#### Tranzaksiya turi yaratish
 
-A new transaction type is added through the **"Create"** button. During creation, the following information is entered:
+Yangi tranzaksiya turi **“Yaratish”** tugmasi orqali qo‘shiladi. Yaratish jarayonida quyidagi ma’lumotlar kiritiladi:
 
-* **Name** — the name of the transaction type (e.g., rent, bonus, service expense, etc.)
-* **Parent Transaction** — if necessary, this type is linked to another type (to create a hierarchy)
-* **Status** — whether the transaction type is active or inactive
-* **Person** — specifies who this transaction is related to:
-  * supplier
-  * customer
-  * employee
-  * 3rd party
-  * other
-* **Type (Income / Expense)** — whether the transaction relates to money inflow or outflow
+* **Nomi** — tranzaksiya turining nomi (masalan: ijara, bonus, xizmat xarajati va boshqalar)
+* **Yuqori tranzaksiya** — agar kerak bo‘lsa, ushbu tur boshqa turga bog‘lanadi (ierarxiya yaratish uchun)
+* **Holati** — tranzaksiya turi aktiv yoki noaktiv ekanligi
+* **Shaxs** — ushbu tranzaksiya kim bilan bog‘liq ekanligini belgilaydi, kimga bog'lansa ushani balansiga tasir qiladi:
+  * yetkazib beruvchi
+  * mijoz
+  * xodim
+  * 3-shaxs
+  * boshqa
+* **Turi (Kirim / Chiqim)** — tranzaksiya pul kirimi yoki chiqimiga tegishli ekanligi
 
 <figure><img src="../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
 
-Each transaction type represents a specific business process. For example:
+Har bir tranzaksiya turi aniq bir biznes jarayonni ifodalaydi. Masalan:
 
-* **Sales (product sale)** → income
-* **Rent payment** → expense
-* **Receiving a loan** → income
-* **Giving a loan** → expense
+* **Savdo (mahsulot sotish)** → kirim
+* **Ijara to‘lovi** → chiqim
+* **Qarz olish** → kirim
+* **Qarz berish** → chiqim
 
 </details>

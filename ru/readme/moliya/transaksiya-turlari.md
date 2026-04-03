@@ -17,53 +17,53 @@ layout:
     visible: true
 ---
 
-# Типы транзакций
+# Transaksiya turlari
 
 <details open>
 
-<summary>Создание типов транзакций </summary>
+<summary>Transaksiya turlari yaratish </summary>
 
-**Раздел типов транзакций** служит для создания и управления типами (категориями) всех финансовых операций в системе. Данный раздел предназначен для упорядочивания операций прихода и расхода, их правильной классификации и точного отображения в отчетах.
+**Tranzaksiya turlari bo‘lim**i orqali tizimda barcha moliyaviy operatsiyalar uchun tur (kategoriya)lar yaratiladi va boshqariladi. Ushbu bo‘lim kirim va chiqim operatsiyalarini tartibga solish, ularni to‘g‘ri klassifikatsiya qilish hamda hisobotlarda aniq ajratib ko‘rsatish uchun xizmat qiladi.
 
-Пользователь может просматривать существующие типы транзакций, активировать их или добавлять новые типы в данном разделе.
+Foydalanuvchi ushbu bo‘limda mavjud tranzaksiya turlarini ko‘rishi, ularni faollashtirishi yoki yangi tur qo‘shishi mumkin.
 
 <figure><img src="../../.gitbook/assets/image (422).png" alt=""><figcaption></figcaption></figure>
 
-#### Просмотр и фильтрация типов транзакций
+#### Tranzaksiya turlarini ko‘rish va filtrlash
 
-В разделе типы транзакций отображаются по двум основным направлениям:
+Bo‘limda tranzaksiya turlari ikki asosiy yo‘nalishda ko‘rsatiladi:
 
-* **Приход** — операции, отражающие поступление денежных средств в систему
-* **Расход** — операции, отражающие выбытие денежных средств из системы
+* **Kirim** — tizimga pul kirimini ifodalovchi operatsiyalar
+* **Chiqim** — tizimdan pul chiqimini ifodalovchi operatsiyalar
 
-При выборе пользователем одной из кнопок **Приход** или **Расход** отображается список только тех типов транзакций, которые относятся к данному типу. Это способствует быстрому и точному управлению операциями.
+Foydalanuvchi **Kirim** yoki **Chiqim** tugmalaridan birini tanlaganda, faqat shu turga tegishli tranzaksiya turlari ro‘yxati chiqadi. Bu esa operatsiyalarni tez va aniq boshqarishga yordam beradi.
 
 <figure><img src="../../.gitbook/assets/image (464).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (465).png" alt=""><figcaption></figcaption></figure>
 
-#### Создание типа транзакции
+#### Tranzaksiya turi yaratish
 
-Новый тип транзакции добавляется через кнопку **"Создать"**. В процессе создания вводятся следующие данные:
+Yangi tranzaksiya turi **“Yaratish”** tugmasi orqali qo‘shiladi. Yaratish jarayonida quyidagi ma’lumotlar kiritiladi:
 
-* **Название** — наименование типа транзакции (например: аренда, премия, расходы на услуги и прочее)
-* **Родительская транзакция** — при необходимости данный тип привязывается к другому типу (для создания иерархии)
-* **Состояние** — активен или неактивен тип транзакции
-* **Лицо** — определяет, с кем связана данная транзакция:
-  * поставщик
-  * клиент
-  * сотрудник
-  * третье лицо
-  * другое
-* **Тип (Приход / Расход)** — относится ли транзакция к поступлению или выбытию денежных средств
+* **Nomi** — tranzaksiya turining nomi (masalan: ijara, bonus, xizmat xarajati va boshqalar)
+* **Yuqori tranzaksiya** — agar kerak bo‘lsa, ushbu tur boshqa turga bog‘lanadi (ierarxiya yaratish uchun)
+* **Holati** — tranzaksiya turi aktiv yoki noaktiv ekanligi
+* **Shaxs** — ushbu tranzaksiya kim bilan bog‘liq ekanligini belgilaydi, kimga bog'lansa ushani balansiga tasir qiladi:
+  * yetkazib beruvchi
+  * mijoz
+  * xodim
+  * 3-shaxs
+  * boshqa
+* **Turi (Kirim / Chiqim)** — tranzaksiya pul kirimi yoki chiqimiga tegishli ekanligi
 
 <figure><img src="../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
 
-Каждый тип транзакции отражает конкретный бизнес-процесс. Например:
+Har bir tranzaksiya turi aniq bir biznes jarayonni ifodalaydi. Masalan:
 
-* **Продажа (реализация продукции)** → приход
-* **Оплата аренды** → расход
-* **Получение займа** → приход
-* **Предоставление займа** → расход
+* **Savdo (mahsulot sotish)** → kirim
+* **Ijara to‘lovi** → chiqim
+* **Qarz olish** → kirim
+* **Qarz berish** → chiqim
 
 </details>
