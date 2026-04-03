@@ -170,10 +170,10 @@ Natijada:\
 
 1. Mijozga 1 000 000 so‘mlik savdo qilindi\
    → Kredit: 1 000 000\
-   → Balans: 1 000 000 (mijoz qarzdor)
+   → Balans: -1 000 000 (mijoz qarzdor)
 2. Mijoz 400 000 so‘m to‘ladi\
    → Debet: 400 000\
-   → Balans: 600 000
+   → Balans: -600 000
 
 **Foydasi**
 
@@ -203,8 +203,8 @@ Bu yerda mijoz sizga qancha qarzdor yoki siz undan qancha oldindan pul olganingi
 • Joriy balans — mijozning hozirgi hisob-kitob holati
 
 Balans quyidagicha tushuniladi:\
-• Musbat bo‘lsa — mijoz sizdan qarzdor\
-• Manfiy bo‘lsa — siz mijozdan qarzdorsiz (avans bor)
+• Musbat bo‘lsa — siz mijozdan qarzdorsiz (avans bor)\
+• Manfiy bo‘lsa — mijoz sizdan qarzdor
 
 **Tashkilotlar kesimida**
 
@@ -228,9 +228,9 @@ Bu umumiy hisob-kitobni tezda ko‘rish imkonini beradi.
 **Misol**
 
 1. Mijoz 1 000 000 so‘mlik mahsulot oldi\
-   → Balans: 1 000 000
+   → Balans: -1 000 000
 2. Mijoz 300 000 so‘m to‘ladi\
-   → Balans: 700 000
+   → Balans: -700 000
 3. Yana 700 000 to‘ladi\
    → Balans: 0 (hisob yopildi)
 
@@ -245,8 +245,8 @@ Bu umumiy hisob-kitobni tezda ko‘rish imkonini beradi.
 • Qaysi mijoz qancha qarzdorligini tez ko‘rish\
 • Hisob-kitobni soddalashtirish
 
-Agar balans musbat bo‘lsa — mijoz sizdan qarzdor\
-Agar manfiy bo‘lsa — siz mijozdan qarzdorsiz
+Agar balans musbat bo‘lsa —siz mijozdan qarzdorsiz\
+Agar manfiy bo‘lsa —  mijoz sizdan qarzdor &#x20;
 
 
 
@@ -290,7 +290,7 @@ Keyingi savdoda:\
 
 Cashback ishlashi uchun:\
 • Tizimda cashback sozlamalari yoqilgan bo‘lishi kerak\
-• Marketing → Cashback bo‘limida foiz yoki qoidalar belgilangan bo‘ladi
+• Sozlamalar→ Cashback bo‘limida foiz yoki qoidalar belgilangan bo‘ladi
 
 
 

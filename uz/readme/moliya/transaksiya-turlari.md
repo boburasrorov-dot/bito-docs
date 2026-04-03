@@ -49,7 +49,7 @@ Yangi tranzaksiya turi **“Yaratish”** tugmasi orqali qo‘shiladi. Yaratish 
 * **Nomi** — tranzaksiya turining nomi (masalan: ijara, bonus, xizmat xarajati va boshqalar)
 * **Yuqori tranzaksiya** — agar kerak bo‘lsa, ushbu tur boshqa turga bog‘lanadi (ierarxiya yaratish uchun)
 * **Holati** — tranzaksiya turi aktiv yoki noaktiv ekanligi
-* **Shaxs** — ushbu tranzaksiya kim bilan bog‘liq ekanligini belgilaydi:
+* **Shaxs** — ushbu tranzaksiya kim bilan bog‘liq ekanligini belgilaydi, kimga bog'lansa ushani balansiga tasir qiladi:
   * yetkazib beruvchi
   * mijoz
   * xodim

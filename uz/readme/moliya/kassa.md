@@ -36,7 +36,7 @@ Kassani tizimga qo‘shish uchun **Kassa qo‘shish** tugmasi bosiladi va maxsus
 * **Kassa nomi** – kassani identifikatsiya qilish uchun ishlatiladi (masalan: Asosiy kassa, Filial kassasi)
 * **Valyuta** – ushbu kassada ishlatiladigan pul birligi (so‘m, dollar va boshqalar). Har bir kassa faqat bitta valyutada ishlaydi
 * **Tashkilot** – agar tizimda bir nechta tashkilot mavjud bo‘lsa, qaysi tashkilotga tegishli ekanligi belgilanadi
-* **MJSh (mas’ul shaxs)** – kassaga javobgar bo‘lgan xodim
+* **MJSh (mas’ul shaxs)** – kassaga javobgar bo‘lgan xodim (bu xodim ga boshqa kassa biriktirilmagan bo'lishi kerak agar boshqa tashkilot bo'lmasa)
 
 Barcha majburiy maydonlar to‘ldirilgandan so‘ng **Saqlash** tugmasi bosiladi va kassa tizimda aktiv holatga o‘tadi.
 

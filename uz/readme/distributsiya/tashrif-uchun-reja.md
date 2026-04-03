@@ -38,7 +38,7 @@ Jadval ustunlari:
 
 Yangi reja yaratish jarayoni bir necha bosqichdan iborat:
 
-Birinchi bosqichda xodim (agent) tanlanadi. Bu yerda faqatgina ruxsatlar bo‘limida HR tomonidan “Agent” roli berilgan foydalanuvchilar ro‘yxatda chiqadi. Shu sababli, har qanday xodim emas, balki faqat tegishli ruxsatga ega bo‘lganlar agent sifatida tanlanadi.
+Birinchi bosqichda xodim (agent) tanlanadi. Bu yerda faqatgina ruxsatlar bo‘limida HR tomonidan “Agent” va "Kuryer" roli berilgan foydalanuvchilar ro‘yxatda chiqadi. Shu sababli, har qanday xodim emas, balki faqat tegishli ruxsatga ega bo‘lganlar agent sifatida tanlanadi.
 
 <figure><img src="../../.gitbook/assets/image (495).png" alt=""><figcaption></figcaption></figure>
 

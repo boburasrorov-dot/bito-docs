@@ -214,7 +214,7 @@ Bu hisobot mijozlar bilan ishlashni tahlil qilish, sodiq mijozlarni aniqlash va 
 
 <summary>Sotuv mijozlar bo'yicha </summary>
 
-<figure><img src="../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/photo_2026-04-03_14-50-36.jpg" alt=""><figcaption></figcaption></figure>
 
 Ushbu hisobotda barcha savdolar mijozlar kesimida ko‘rsatiladi. Ya’ni har bir savdo operatsiyasida qaysi mijoz xarid qilgani, savdo sanasi va to‘lov tafsilotlari ko‘rinadi. Bu hisobot orqali qaysi mijoz qachon va qanday usulda to‘lov qilganini tahlil qilish mumkin.
 
