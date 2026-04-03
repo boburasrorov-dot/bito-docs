@@ -24,7 +24,7 @@ GLOSSARY = "BITO, ERP, CRM, HR, GitBook, Telegram, API, URL"
 COPY_ONLY_FILES = {".gitbook.yaml", "SUMMARY.md"}
 SKIP_EXTENSIONS = {".json", ".yaml", ".yml", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
 
-GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 PROMPT_TEMPLATE = """You are a professional technical translator for ERP software documentation.
 Translate the following Uzbek markdown text to {target_language}.
