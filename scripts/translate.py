@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """
 BITO ERP Documentation Auto-Translator
-Uses Google Gemini API (FREE) to translate Uzbek docs to Russian and English.
+Uses Google Gemini API (FREE) - Russian and English
 """
 
 import os
 import sys
 import time
 import argparse
-import urllib.request
-import urllib.error
 import json
+import requests
 from pathlib import Path
 
 TARGET_LANGUAGES = {"ru": "Russian", "en": "English"}
@@ -19,147 +18,121 @@ COPY_ONLY_FILES = {".gitbook.yaml", "SUMMARY.md"}
 SKIP_EXTENSIONS = {".json", ".yaml", ".yml", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
-PROMPT_TEMPLATE = """You are a professional technical translator for ERP software documentation.
-Translate the following Uzbek markdown text to {target_language}.
+PROMPT = """Translate this Uzbek ERP documentation markdown to {lang}.
+RULES:
+- Output ONLY translated markdown, nothing else
+- No code fences around output
+- Keep all markdown formatting (#, **, *, >, -, tables, links)
+- Never translate: {glossary}
+- Never translate URLs, code blocks, image paths
+- Use standard {lang} business terminology
 
-STRICT RULES:
-1. Output ONLY the translated markdown. No explanations, no notes, nothing else.
-2. Do NOT wrap output in code fences (no ```markdown or ``` at start/end).
-3. Keep ALL markdown formatting: #, ##, **, *, >, -, |, [], (), etc.
-4. Never translate these terms, keep exactly as-is: {glossary}
-5. Never translate content inside code blocks or inline code
-6. Never translate URLs, image paths, or file paths
-7. Keep all blank lines exactly as in the original
-8. Use standard {target_language} business/accounting terminology
-
-TEXT TO TRANSLATE:
+TEXT:
 {content}"""
 
 
 def get_api_key():
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
-        print("ERROR: GEMINI_API_KEY not set")
+        print("ERROR: GEMINI_API_KEY not set", flush=True)
         sys.exit(1)
     return key
 
 
-def clean_translation(text: str) -> str:
+def clean(text: str) -> str:
     text = text.strip()
-    if text.startswith("```markdown"):
-        text = text[len("```markdown"):].strip()
-        if text.endswith("```"):
-            text = text[:-3].strip()
-    elif text.startswith("```"):
-        text = text[3:].strip()
-        if text.endswith("```"):
-            text = text[:-3].strip()
+    for fence in ["```markdown", "```"]:
+        if text.startswith(fence):
+            text = text[len(fence):].strip()
+            if text.endswith("```"):
+                text = text[:-3].strip()
+            break
     return text
 
 
-def translate_content(api_key: str, content: str, target_lang_code: str) -> str:
+def translate(api_key: str, content: str, lang_code: str) -> str:
     if len(content.strip()) < 5:
         return content
 
-    target_language = TARGET_LANGUAGES[target_lang_code]
-    prompt = PROMPT_TEMPLATE.format(
-        target_language=target_language,
-        glossary=GLOSSARY,
-        content=content
-    )
+    lang = TARGET_LANGUAGES[lang_code]
+    prompt = PROMPT.format(lang=lang, glossary=GLOSSARY, content=content)
 
-    payload = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 8192}
-    }).encode("utf-8")
-
-    url = f"{GEMINI_URL}?key={api_key}"
-
-    for attempt in range(2):  # max 2 attempts
+    for attempt in range(2):
         try:
-            req = urllib.request.Request(
-                url, data=payload,
-                headers={"Content-Type": "application/json"},
-                method="POST"
+            resp = requests.post(
+                f"{GEMINI_URL}?key={api_key}",
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"temperature": 0.1, "maxOutputTokens": 8192}
+                },
+                timeout=60
             )
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                translated = data["candidates"][0]["content"]["parts"][0]["text"]
-                return clean_translation(translated)
-
-        except urllib.error.HTTPError as e:
-            body = e.read().decode()
-            if e.code == 429:
-                print(f"  Rate limit hit, waiting 15s...")
-                time.sleep(15)
+            if resp.status_code == 200:
+                data = resp.json()
+                text = data["candidates"][0]["content"]["parts"][0]["text"]
+                return clean(text)
+            elif resp.status_code == 429:
+                print(f"  Rate limit, waiting 20s...", flush=True)
+                time.sleep(20)
             else:
-                print(f"  HTTP {e.code}: {body[:150]}")
-                return content  # skip this file, keep original
-
+                print(f"  Error {resp.status_code}: {resp.text[:100]}", flush=True)
+                return content
         except Exception as e:
-            print(f"  Error: {e}")
-            return content
+            print(f"  Exception: {e}", flush=True)
+            if attempt == 0:
+                time.sleep(5)
+            else:
+                return content
 
-    print("  Skipping after 2 failed attempts")
     return content
 
 
-def should_skip(file_path: Path) -> bool:
-    return (file_path.suffix.lower() in SKIP_EXTENSIONS or
-            file_path.name.startswith("."))
+def should_skip(p: Path) -> bool:
+    return p.suffix.lower() in SKIP_EXTENSIONS or p.name.startswith(".")
+
+def should_copy(p: Path) -> bool:
+    return p.name in COPY_ONLY_FILES
 
 
-def should_copy_only(file_path: Path) -> bool:
-    return file_path.name in COPY_ONLY_FILES
-
-
-def process_file(api_key: str, source_file: Path, output_file: Path, lang_code: str) -> bool:
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-
+def process(api_key, src: Path, dst: Path, lang_code: str) -> bool:
+    dst.parent.mkdir(parents=True, exist_ok=True)
     try:
-        content = source_file.read_text(encoding="utf-8")
+        content = src.read_text(encoding="utf-8")
     except Exception as e:
-        print(f"  Cannot read: {e}")
+        print(f"  Read error: {e}", flush=True)
         return False
 
-    if should_copy_only(source_file):
-        output_file.write_text(content, encoding="utf-8")
-        print(f"  Copied: {output_file.name}")
+    if should_copy(src):
+        dst.write_text(content, encoding="utf-8")
+        print(f"  Copied: {src.name}", flush=True)
         return True
 
-    print(f"  → {TARGET_LANGUAGES[lang_code]}...")
-    translated = translate_content(api_key, content, lang_code)
-
-    try:
-        output_file.write_text(translated, encoding="utf-8")
-        print(f"  Saved: {output_file}")
-        return True
-    except Exception as e:
-        print(f"  Cannot write: {e}")
-        return False
+    print(f"  Translating to {TARGET_LANGUAGES[lang_code]}...", flush=True)
+    result = translate(api_key, content, lang_code)
+    dst.write_text(result, encoding="utf-8")
+    print(f"  Saved: {dst}", flush=True)
+    return True
 
 
-def get_files_to_process(uz_dir: Path, changed_files_str: str = None):
-    if changed_files_str and changed_files_str.strip():
+def get_files(uz_dir: Path, changed_str=None):
+    if changed_str and changed_str.strip():
         files = []
-        for line in changed_files_str.strip().split("\n"):
+        for line in changed_str.strip().split("\n"):
             f = line.strip()
-            if not f or not f.endswith(".md"):
-                continue
-            p = Path(f)
-            if p.exists() and not should_skip(p):
-                try:
-                    rel = p.relative_to(uz_dir)
+            if f and f.endswith(".md"):
+                p = Path(f)
+                if p.exists() and not should_skip(p):
+                    try:
+                        rel = p.relative_to(uz_dir)
+                    except ValueError:
+                        rel = Path(p.name)
                     files.append((p, rel))
-                except ValueError:
-                    files.append((p, Path(p.name)))
         return files
-    else:
-        return [
-            (f, f.relative_to(uz_dir))
-            for f in sorted(uz_dir.rglob("*"))
-            if f.is_file() and not should_skip(f)
-        ]
+    return [
+        (f, f.relative_to(uz_dir))
+        for f in sorted(uz_dir.rglob("*"))
+        if f.is_file() and not should_skip(f)
+    ]
 
 
 def main():
@@ -173,47 +146,43 @@ def main():
 
     uz_dir = Path(args.uz_dir)
     out_base = Path(args.out_dir)
-    target_langs = [l.strip() for l in args.languages.split(",") if l.strip() in TARGET_LANGUAGES]
+    langs = [l.strip() for l in args.languages.split(",") if l.strip() in TARGET_LANGUAGES]
 
     if not uz_dir.exists():
-        print(f"Source directory '{uz_dir}' not found")
+        print(f"Directory '{uz_dir}' not found", flush=True)
         sys.exit(1)
 
-    print(f"\nBITO Translator — Gemini FREE")
-    print(f"Source : {uz_dir.resolve()}")
-    print(f"Targets: {', '.join(TARGET_LANGUAGES[l] for l in target_langs)}\n")
+    print(f"BITO Translator started!", flush=True)
+    print(f"Source: {uz_dir} | Targets: {', '.join(langs)}", flush=True)
 
-    files = get_files_to_process(uz_dir, args.changed_files)
-
+    files = get_files(uz_dir, args.changed_files)
     if not files:
-        print("No files to process.")
+        print("No files found.", flush=True)
         return
 
-    print(f"Files to process: {len(files)}")
+    print(f"Found {len(files)} files", flush=True)
+
     if args.dry_run:
         for src, rel in files:
-            print(f"  {rel}")
+            print(f"  {rel}", flush=True)
         return
 
     api_key = get_api_key()
-    total_ok = total_fail = 0
+    print(f"API key loaded OK", flush=True)
+    ok = fail = 0
 
-    for i, (source_file, relative_path) in enumerate(files, 1):
-        print(f"\n[{i}/{len(files)}] {relative_path}")
-
-        for lang_code in target_langs:
-            output_file = out_base / lang_code / relative_path
-            ok = process_file(api_key, source_file, output_file, lang_code)
-            if ok:
-                total_ok += 1
+    for i, (src, rel) in enumerate(files, 1):
+        print(f"[{i}/{len(files)}] {rel}", flush=True)
+        for lang in langs:
+            dst = out_base / lang / rel
+            if process(api_key, src, dst, lang):
+                ok += 1
             else:
-                total_fail += 1
-
-        # 4 second delay between files — stays within free tier limits
-        if not should_copy_only(source_file):
+                fail += 1
+        if not should_copy(src):
             time.sleep(4)
 
-    print(f"\nDone! Success: {total_ok}  Failed: {total_fail}\n")
+    print(f"Done! OK:{ok} Failed:{fail}", flush=True)
 
 
 if __name__ == "__main__":
