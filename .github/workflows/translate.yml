@@ -18,6 +18,7 @@ jobs:
   translate:
     name: Translate Uzbek → Russian & English
     runs-on: ubuntu-latest
+    timeout-minutes: 120
 
     permissions:
       contents: write
@@ -33,6 +34,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: pip install requests
+
       - name: Get changed files
         id: changed
         run: |
@@ -41,28 +45,17 @@ jobs:
             echo "files=" >> $GITHUB_OUTPUT
           else
             FILES=$(git diff --name-only HEAD~1 HEAD -- 'uz/**')
-            echo "Changed files: $FILES"
+            echo "Changed: $FILES"
             echo "files<<EOF" >> $GITHUB_OUTPUT
             echo "$FILES" >> $GITHUB_OUTPUT
             echo "EOF" >> $GITHUB_OUTPUT
           fi
 
-      - name: Translate changed pages
+      - name: Translate pages
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
-          if [ -z "${{ steps.changed.outputs.files }}" ]; then
-            python scripts/translate.py \
-              --uz-dir uz \
-              --out-dir . \
-              --languages ru,en
-          else
-            python scripts/translate.py \
-              --uz-dir uz \
-              --out-dir . \
-              --languages ru,en \
-              --changed-files "${{ steps.changed.outputs.files }}"
-          fi
+          PYTHONUNBUFFERED: "1"
+        run: python -u scripts/translate.py --uz-dir uz --out-dir . --languages ru,en
 
       - name: Commit translations
         run: |
