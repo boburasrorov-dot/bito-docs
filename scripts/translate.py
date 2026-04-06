@@ -13,17 +13,10 @@ import urllib.error
 import json
 from pathlib import Path
 
-# ─── Configuration ────────────────────────────────────────────────────────────
-
-TARGET_LANGUAGES = {
-    "ru": "Russian",
-    "en": "English"
-}
-
+TARGET_LANGUAGES = {"ru": "Russian", "en": "English"}
 GLOSSARY = "BITO, ERP, CRM, HR, GitBook, Telegram, API, URL"
 COPY_ONLY_FILES = {".gitbook.yaml", "SUMMARY.md"}
 SKIP_EXTENSIONS = {".json", ".yaml", ".yml", ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp"}
-
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 PROMPT_TEMPLATE = """You are a professional technical translator for ERP software documentation.
@@ -42,7 +35,6 @@ STRICT RULES:
 TEXT TO TRANSLATE:
 {content}"""
 
-# ─── Gemini API ────────────────────────────────────────────────────────────────
 
 def get_api_key():
     key = os.environ.get("GEMINI_API_KEY")
@@ -65,7 +57,7 @@ def clean_translation(text: str) -> str:
     return text
 
 
-def translate_content(api_key: str, content: str, target_lang_code: str, retries=3) -> str:
+def translate_content(api_key: str, content: str, target_lang_code: str) -> str:
     if len(content.strip()) < 5:
         return content
 
@@ -83,11 +75,10 @@ def translate_content(api_key: str, content: str, target_lang_code: str, retries
 
     url = f"{GEMINI_URL}?key={api_key}"
 
-    for attempt in range(retries):
+    for attempt in range(2):  # max 2 attempts
         try:
             req = urllib.request.Request(
-                url,
-                data=payload,
+                url, data=payload,
                 headers={"Content-Type": "application/json"},
                 method="POST"
             )
@@ -99,32 +90,23 @@ def translate_content(api_key: str, content: str, target_lang_code: str, retries
         except urllib.error.HTTPError as e:
             body = e.read().decode()
             if e.code == 429:
-                wait = 30 * (attempt + 1)
-                print(f"  Rate limit, waiting {wait}s...")
-                time.sleep(wait)
+                print(f"  Rate limit hit, waiting 15s...")
+                time.sleep(15)
             else:
-                print(f"  HTTP error {e.code}: {body[:200]}")
-                if attempt < retries - 1:
-                    time.sleep(10)
-                else:
-                    return content
+                print(f"  HTTP {e.code}: {body[:150]}")
+                return content  # skip this file, keep original
 
         except Exception as e:
-            print(f"  Error attempt {attempt+1}: {e}")
-            if attempt < retries - 1:
-                time.sleep(10)
-            else:
-                return content
+            print(f"  Error: {e}")
+            return content
 
+    print("  Skipping after 2 failed attempts")
     return content
 
 
 def should_skip(file_path: Path) -> bool:
-    if file_path.suffix.lower() in SKIP_EXTENSIONS:
-        return True
-    if file_path.name.startswith("."):
-        return True
-    return False
+    return (file_path.suffix.lower() in SKIP_EXTENSIONS or
+            file_path.name.startswith("."))
 
 
 def should_copy_only(file_path: Path) -> bool:
@@ -141,15 +123,11 @@ def process_file(api_key: str, source_file: Path, output_file: Path, lang_code: 
         return False
 
     if should_copy_only(source_file):
-        try:
-            output_file.write_text(content, encoding="utf-8")
-            print(f"  Copied: {output_file.name}")
-            return True
-        except Exception as e:
-            print(f"  Cannot write: {e}")
-            return False
+        output_file.write_text(content, encoding="utf-8")
+        print(f"  Copied: {output_file.name}")
+        return True
 
-    print(f"  Translating to {TARGET_LANGUAGES[lang_code]}...")
+    print(f"  → {TARGET_LANGUAGES[lang_code]}...")
     translated = translate_content(api_key, content, lang_code)
 
     try:
@@ -177,21 +155,20 @@ def get_files_to_process(uz_dir: Path, changed_files_str: str = None):
                     files.append((p, Path(p.name)))
         return files
     else:
-        files = []
-        for f in sorted(uz_dir.rglob("*")):
-            if f.is_file() and not should_skip(f):
-                rel = f.relative_to(uz_dir)
-                files.append((f, rel))
-        return files
+        return [
+            (f, f.relative_to(uz_dir))
+            for f in sorted(uz_dir.rglob("*"))
+            if f.is_file() and not should_skip(f)
+        ]
 
 
 def main():
-    parser = argparse.ArgumentParser(description="BITO ERP Documentation Translator (Gemini)")
-    parser.add_argument("--uz-dir", default="uz", help="Source Uzbek docs directory")
-    parser.add_argument("--out-dir", default=".", help="Output base directory")
-    parser.add_argument("--changed-files", default=None, help="Newline-separated changed files")
-    parser.add_argument("--languages", default="ru,en", help="Target language codes")
-    parser.add_argument("--dry-run", action="store_true", help="Preview without translating")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--uz-dir", default="uz")
+    parser.add_argument("--out-dir", default=".")
+    parser.add_argument("--changed-files", default=None)
+    parser.add_argument("--languages", default="ru,en")
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     uz_dir = Path(args.uz_dir)
@@ -202,10 +179,9 @@ def main():
         print(f"Source directory '{uz_dir}' not found")
         sys.exit(1)
 
-    print(f"\nBITO ERP Translator (powered by Google Gemini - FREE)")
+    print(f"\nBITO Translator — Gemini FREE")
     print(f"Source : {uz_dir.resolve()}")
-    print(f"Targets: {', '.join(TARGET_LANGUAGES[l] for l in target_langs)}")
-    print()
+    print(f"Targets: {', '.join(TARGET_LANGUAGES[l] for l in target_langs)}\n")
 
     files = get_files_to_process(uz_dir, args.changed_files)
 
@@ -214,17 +190,13 @@ def main():
         return
 
     print(f"Files to process: {len(files)}")
-    for src, rel in files:
-        action = "copy" if should_copy_only(src) else "translate"
-        print(f"  [{action}] {rel}")
-
     if args.dry_run:
-        print("\nDry run complete.")
+        for src, rel in files:
+            print(f"  {rel}")
         return
 
     api_key = get_api_key()
-    total_ok = 0
-    total_fail = 0
+    total_ok = total_fail = 0
 
     for i, (source_file, relative_path) in enumerate(files, 1):
         print(f"\n[{i}/{len(files)}] {relative_path}")
@@ -237,8 +209,9 @@ def main():
             else:
                 total_fail += 1
 
+        # 4 second delay between files — stays within free tier limits
         if not should_copy_only(source_file):
-            time.sleep(2)  # Gemini free tier: be gentle
+            time.sleep(4)
 
     print(f"\nDone! Success: {total_ok}  Failed: {total_fail}\n")
 
