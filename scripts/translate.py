@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
 BITO ERP Documentation Auto-Translator
-Uses Google Gemini API (FREE) - Russian and English
+Uses Google Gemini API (FREE)
+Commits every 10 files so progress is saved even if cancelled.
 """
 
 import os
 import sys
 import time
-import argparse
-import json
+import subprocess
 import requests
 from pathlib import Path
 
@@ -29,6 +29,24 @@ RULES:
 
 TEXT:
 {content}"""
+
+
+def git_commit(message="Auto-translate: save progress"):
+    """Commit and push any new translated files."""
+    try:
+        subprocess.run(["git", "add", "ru/", "en/"], check=False)
+        result = subprocess.run(
+            ["git", "diff", "--staged", "--quiet"],
+            capture_output=True
+        )
+        if result.returncode != 0:  # there are staged changes
+            subprocess.run(["git", "commit", "-m", message], check=False)
+            subprocess.run(["git", "push"], check=False)
+            print("  >>> Progress saved to GitHub!", flush=True)
+        else:
+            print("  >>> Nothing new to commit.", flush=True)
+    except Exception as e:
+        print(f"  >>> Commit error: {e}", flush=True)
 
 
 def get_api_key():
@@ -83,7 +101,6 @@ def translate(api_key: str, content: str, lang_code: str) -> str:
                 time.sleep(5)
             else:
                 return content
-
     return content
 
 
@@ -94,40 +111,34 @@ def should_copy(p: Path) -> bool:
     return p.name in COPY_ONLY_FILES
 
 
-def process(api_key, src: Path, dst: Path, lang_code: str) -> bool:
+def process(api_key, src: Path, dst: Path, lang_code: str) -> str:
+    """Returns: 'skipped', 'ok', or 'fail'"""
     dst.parent.mkdir(parents=True, exist_ok=True)
+
+    # Skip if already translated
+    if dst.exists() and dst.stat().st_size > 10:
+        print(f"  Already done ({lang_code}), skipping.", flush=True)
+        return "skipped"
+
     try:
         content = src.read_text(encoding="utf-8")
     except Exception as e:
         print(f"  Read error: {e}", flush=True)
-        return False
+        return "fail"
 
     if should_copy(src):
         dst.write_text(content, encoding="utf-8")
         print(f"  Copied: {src.name}", flush=True)
-        return True
+        return "ok"
 
     print(f"  Translating to {TARGET_LANGUAGES[lang_code]}...", flush=True)
     result = translate(api_key, content, lang_code)
     dst.write_text(result, encoding="utf-8")
     print(f"  Saved: {dst}", flush=True)
-    return True
+    return "ok"
 
 
-def get_files(uz_dir: Path, changed_str=None):
-    if changed_str and changed_str.strip():
-        files = []
-        for line in changed_str.strip().split("\n"):
-            f = line.strip()
-            if f and f.endswith(".md"):
-                p = Path(f)
-                if p.exists() and not should_skip(p):
-                    try:
-                        rel = p.relative_to(uz_dir)
-                    except ValueError:
-                        rel = Path(p.name)
-                    files.append((p, rel))
-        return files
+def get_files(uz_dir: Path):
     return [
         (f, f.relative_to(uz_dir))
         for f in sorted(uz_dir.rglob("*"))
@@ -136,53 +147,60 @@ def get_files(uz_dir: Path, changed_str=None):
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--uz-dir", default="uz")
-    parser.add_argument("--out-dir", default=".")
-    parser.add_argument("--changed-files", default=None)
-    parser.add_argument("--languages", default="ru,en")
-    parser.add_argument("--dry-run", action="store_true")
-    args = parser.parse_args()
-
-    uz_dir = Path(args.uz_dir)
-    out_base = Path(args.out_dir)
-    langs = [l.strip() for l in args.languages.split(",") if l.strip() in TARGET_LANGUAGES]
+    uz_dir = Path("uz")
+    out_base = Path(".")
+    langs = ["ru", "en"]
 
     if not uz_dir.exists():
-        print(f"Directory '{uz_dir}' not found", flush=True)
+        print(f"Directory 'uz' not found", flush=True)
         sys.exit(1)
 
+    # Setup git
+    subprocess.run(["git", "config", "--local", "user.email", "bot@bito.uz"], check=False)
+    subprocess.run(["git", "config", "--local", "user.name", "BITO Translator Bot"], check=False)
+
     print(f"BITO Translator started!", flush=True)
-    print(f"Source: {uz_dir} | Targets: {', '.join(langs)}", flush=True)
-
-    files = get_files(uz_dir, args.changed_files)
-    if not files:
-        print("No files found.", flush=True)
-        return
-
+    files = get_files(uz_dir)
     print(f"Found {len(files)} files", flush=True)
 
-    if args.dry_run:
-        for src, rel in files:
-            print(f"  {rel}", flush=True)
-        return
-
     api_key = get_api_key()
-    print(f"API key loaded OK", flush=True)
-    ok = fail = 0
+    print(f"API key loaded OK\n", flush=True)
+
+    ok = fail = skipped = 0
+    files_since_commit = 0
 
     for i, (src, rel) in enumerate(files, 1):
         print(f"[{i}/{len(files)}] {rel}", flush=True)
+        newly_translated = False
+
         for lang in langs:
             dst = out_base / lang / rel
-            if process(api_key, src, dst, lang):
+            result = process(api_key, src, dst, lang)
+            if result == "ok":
                 ok += 1
+                newly_translated = True
+            elif result == "skipped":
+                skipped += 1
             else:
                 fail += 1
+
+        if newly_translated:
+            files_since_commit += 1
+
+        # Commit every 10 newly translated files
+        if files_since_commit >= 10:
+            print(f"\n--- Saving progress to GitHub ---", flush=True)
+            git_commit(f"Auto-translate: progress {i}/{len(files)} files")
+            files_since_commit = 0
+
         if not should_copy(src):
             time.sleep(4)
 
-    print(f"Done! OK:{ok} Failed:{fail}", flush=True)
+    # Final commit
+    print(f"\n--- Final save to GitHub ---", flush=True)
+    git_commit("Auto-translate: completed all files")
+
+    print(f"\nDone! Translated:{ok} Skipped:{skipped} Failed:{fail}", flush=True)
 
 
 if __name__ == "__main__":
