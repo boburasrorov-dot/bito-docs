@@ -37,35 +37,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Get changed files
-        id: changed
-        run: |
-          if [ "${{ github.event.inputs.translate_all }}" = "true" ]; then
-            echo "Translating ALL files..."
-            echo "files=" >> $GITHUB_OUTPUT
-          else
-            FILES=$(git diff --name-only HEAD~1 HEAD -- 'uz/**')
-            echo "Changed: $FILES"
-            echo "files<<EOF" >> $GITHUB_OUTPUT
-            echo "$FILES" >> $GITHUB_OUTPUT
-            echo "EOF" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Translate pages
+      - name: Translate pages (commits every 10 files)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PYTHONUNBUFFERED: "1"
-        run: python -u scripts/translate.py --uz-dir uz --out-dir . --languages ru,en
-
-      - name: Commit translations
-        run: |
-          git config --local user.email "bot@bito.uz"
-          git config --local user.name "BITO Translator Bot"
-          git add ru/ en/
-          if git diff --staged --quiet; then
-            echo "No new translations to commit."
-          else
-            git commit -m "Auto-translate: update RU & EN docs"
-            git push
-            echo "Translations pushed!"
-          fi
+        run: python -u scripts/translate.py
