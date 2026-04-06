@@ -1,22 +1,26 @@
 name: Auto-Translate BITO Docs
 
 on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Which language to translate to'
+        required: true
+        default: 'ru'
+        type: choice
+        options:
+          - ru
+          - en
+
   push:
     branches:
       - main
     paths:
       - 'uz/**'
 
-  workflow_dispatch:
-    inputs:
-      translate_all:
-        description: 'Translate ALL pages (not just changed ones)'
-        required: false
-        default: 'false'
-
 jobs:
   translate:
-    name: Translate Uzbek → Russian & English
+    name: Translate Uzbek → ${{ github.event.inputs.language || 'ru' }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
 
@@ -37,8 +41,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Translate pages (commits every 10 files)
+      - name: Translate pages
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PYTHONUNBUFFERED: "1"
+          TARGET_LANG: ${{ github.event.inputs.language || 'ru' }}
         run: python -u scripts/translate.py
