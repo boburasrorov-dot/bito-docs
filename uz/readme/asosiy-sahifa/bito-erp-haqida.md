@@ -1,8 +1,7 @@
 ---
 description: >-
   Ushbu bo‘limda Bito ERP tizimining maqsadi, asosiy imkoniyatlari va biznes
-  jarayonlarini avtomatlashtirishdagi roli haqida umumiy ma’lumot beriladi.  --
-  PO test
+  jarayonlarini avtomatlashtirishdagi roli haqida umumiy ma’lumot beriladi.
 ---
 
 # Bito ERP haqida
