@@ -1,8 +1,3 @@
----
-description: >-
-  В этом разделе предоставлена информация о процессах продажи товаров, торговых документах и операциях, связанных с клиентами.
----
-
 # Продажи
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 20 минут</mark></sub></td><td><h4><strong>Продажи</strong></h4></td><td>Продажа товаров, создание торговых документов и управление торговыми операциями, Dashboard</td><td><a href="savdolar.md">savdolar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Возвраты</strong></h4></td><td>Оформление товаров, возвращенных клиентами</td><td><a href="qaytarish.md">qaytarish.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 8 минут</mark></sub></td><td><h4><strong>Этикетки</strong></h4></td><td>Создание и печать этикеток для товаров</td><td><a href="etiketka.md">etiketka.md</a></td></tr></tbody></table>

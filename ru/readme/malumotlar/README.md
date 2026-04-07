@@ -1,22 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
----
-
 # Данные
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Цены</strong> </h4></td><td>Раздел для установки, редактирования и управления ценами на товары и услуги.</td><td><a href="narxlar.md">narxlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Юридические лица</strong></h4></td><td>Регистрация клиентов-компаний и организаций, работа с ними и ведение расчетов.</td><td><a href="yuridik-shaxslar.md">yuridik-shaxslar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Физические лица</strong></h4></td><td>Хранение данных обычных клиентов, управление их покупками и балансом.</td><td><a href="jismoniy-shaxslar.md">jismoniy-shaxslar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4>Производитель </h4></td><td>Ведение и управление информацией о компаниях-производителях товаров.</td><td><a href="ishlab-chiqaruvchi.md">ishlab-chiqaruvchi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Бренд</strong></h4></td><td>Создание, организация брендов товаров и упрощение фильтрации по ним.</td><td><a href="brend.md">brend.md</a></td></tr></tbody></table>

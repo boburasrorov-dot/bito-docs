@@ -1,22 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
----
-
 # Снабжение
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Заявки на закупку</strong></h4></td><td>Формирование потребности в продукции и создание заявок для начала процесса закупки.</td><td><a href="sotib-olish-sorovlari.md">sotib-olish-sorovlari.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Заказ на закупку</strong></h4></td><td>Используется для официального размещения заказа поставщику и планирования процесса закупки.</td><td><a href="xarid-buyurtmasi.md">xarid-buyurtmasi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 25 минут</mark></sub></td><td><h4><strong>Закупка</strong></h4></td><td>Процесс приемки продукции, постановки на учет и завершения операции закупки.</td><td><a href="xaridlar.md">xaridlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 15 минут</mark></sub></td><td><h4><strong>Возврат</strong></h4></td><td>Процесс возврата закупленной продукции поставщику и списания с учета.</td><td><a href="qaytarish.md">qaytarish.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 минут</mark></sub></td><td><h4><strong>Поставщики</strong></h4></td><td>Ведение списка партнеров-поставщиков и управление работой с ними.</td><td><a href="yetkazib-beruvchilar.md">yetkazib-beruvchilar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 минут</mark></sub></td><td><h4><strong>Категории</strong></h4></td><td>Создание категорий для группировки поставщиков и системного управления.</td><td><a href="kategoriyalar.md">kategoriyalar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 минут</mark></sub></td><td><h4><strong>Причины закупки</strong></h4></td><td>Позволяет указывать причины закупок и впоследствии проводить анализ.</td><td><a href="sotib-olish-sabablari.md">sotib-olish-sabablari.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 минут</mark></sub></td><td><h4><strong>Причины возврата</strong></h4></td><td>Используется для определения причин возврата продукции и анализа проблем.</td><td><a href="qaytarish-sabablari.md">qaytarish-sabablari.md</a></td></tr></tbody></table>
