@@ -22,4 +22,4 @@ After products are added, the system **prepares the number of labels based on th
 
 This allows you to quickly and conveniently prepare and print the required number of labels for products.
 
-</details>
+</details> 
