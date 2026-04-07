@@ -1,8 +1,8 @@
 # Cashback
 
-<details open>
 
-<summary>Cashback</summary>
+
+### Cashback
 
 The **CRM → Cashback** section displays information about cashbacks issued to customers and their usage.
 
@@ -39,4 +39,3 @@ This allows you to:
 • see how much cashback each customer has\
 • identify customers who have accumulated the most cashback
 
-</details>

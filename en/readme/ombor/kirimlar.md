@@ -1,8 +1,8 @@
 # Receipts
 
-<details open>
 
-<summary>Receipts</summary>
+
+### Receipts
 
 The Receipts section is used to perform the process of receiving products into the warehouse. This process is typically carried out based on previously created and finalized purchase documents.
 
@@ -45,4 +45,3 @@ These expenses are added to the product cost.
 
 <figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
-</details>

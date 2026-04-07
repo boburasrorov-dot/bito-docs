@@ -1,8 +1,8 @@
 # Transactions
 
-<details open>
 
-<summary>Transactions</summary>
+
+### Transactions
 
 Apart from the cash register section, all transactions can also be viewed in a **separate section**. Through this section, cash movements across all cash registers in the system are displayed in a single table.
 
@@ -26,4 +26,3 @@ The table consists of the following information:
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
-</details>

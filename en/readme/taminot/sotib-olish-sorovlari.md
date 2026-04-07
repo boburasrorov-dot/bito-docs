@@ -1,8 +1,8 @@
 # Purchase Requests
 
-<details open>
 
-<summary>Creating purchase requests</summary>
+
+### Creating purchase requests
 
 In the Supply → Purchase Requests section, when the **Create** button is pressed, a new purchase request window opens.
 
@@ -38,4 +38,3 @@ Through the products and raw materials section, the following information is ent
 After all information is entered, it is saved and the purchase request is added to the system.\
 As a result, enterprise needs are systematically formed and a basis for subsequent procurement processes is created.
 
-</details>

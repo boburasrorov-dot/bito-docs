@@ -1,8 +1,8 @@
 # Taxes
 
-<details open>
 
-<summary>Taxes</summary>
+
+### Taxes
 
 The Taxes section is used to create and manage tax rates applied to products and services in the system. This section serves to automate pricing, ensure accurate payment calculations, and maintain precision in financial reporting.
 
@@ -50,4 +50,3 @@ If the tax applies only to certain products, the following options are available
 
 
 
-</details>

@@ -1,8 +1,8 @@
 # Purchase Order
 
-<details open>
 
-<summary>Creating a purchase order</summary>
+
+### Creating a purchase order
 
 In the Supply → Purchase Order section, when the **Create** button is pressed, a new purchase order window opens.
 
@@ -41,4 +41,3 @@ Through the additional products and raw materials section:
 After all information is entered, it is saved and the purchase order is created.\
 As a result, an official order to be sent to the supplier is formed and the procurement process is managed based on a clear plan.
 
-</details>

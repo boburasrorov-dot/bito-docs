@@ -1,8 +1,8 @@
 # Return Reasons
 
-<details open>
 
-<summary>Creating Return Reasons</summary>
+
+### Creating Return Reasons
 
 In the Supply → Return Reasons section, when the **Create** button is pressed, a new return reason creation window opens.
 
@@ -26,4 +26,3 @@ After all information is entered, it is saved and the reason is added to the sys
 
 As a result, return operations are conducted based on specific reasons, which helps quickly identify issues, perform statistical analysis, and reduce errors in the future.
 
-</details>

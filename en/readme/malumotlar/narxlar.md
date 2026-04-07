@@ -1,8 +1,8 @@
 # Prices
 
-<details open>
 
-<summary>Creating prices</summary>
+
+### Creating prices
 
 The **Prices** section allows you to create various price types for products and manage them in a centralized manner. Through this section, users can set prices according to different sales strategies, apply them to products, and control the overall pricing policy. Additionally, there is functionality for automatic price calculation and management through limits (minimum/maximum). This section is used to implement pricing policy and improve sales efficiency.
 
@@ -33,4 +33,3 @@ This section serves to manage overall prices, while within a product, only the p
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-</details>

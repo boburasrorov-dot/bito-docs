@@ -1,8 +1,8 @@
 # Production
 
-<details open>
 
-<summary>Production</summary>
+
+### Production
 
 The **Production module** enables management of the product manufacturing process, raw material consumption, and automated acceptance of finished goods to the warehouse. Through this module, production orders are created, and warehouse movements are automatically executed based on them. This module is used to control the production process, calculate costs, and efficiently utilize resources.
 
@@ -55,4 +55,3 @@ System operation logic:
   * Finished goods are received to the warehouse
   * Expenses are added to the product cost
 
-</details>

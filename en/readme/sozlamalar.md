@@ -1,8 +1,8 @@
 # Settings
 
-<details>
 
-<summary>Settings Section</summary>
+
+### Settings Section
 
 The Settings section allows you to manage and customize all key parameters of the system. Through this section, users can enable or disable system functions, modify settings across various modules, and configure them according to business processes. This section is crucial for flexible system management and optimization.
 
@@ -82,11 +82,11 @@ On the right side, parameters corresponding to the selected setting are displaye
 
 The main feature of this section is that all system settings are consolidated in one place and managed by modules. This allows users to adapt the system to their business processes, control functions, and increase operational efficiency.
 
-</details>
 
-<details>
 
-<summary>General</summary>
+
+
+### General
 
 Through this section, you can manage (enable/disable) all modules in the system and their internal functions. This allows users to disable sections that don't match their business processes and simplify the interface.
 
@@ -139,11 +139,11 @@ Through this section, you can manage (enable/disable) all modules in the system 
 
 <div><figure><img src="../.gitbook/assets/image (521).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (522).png" alt=""><figcaption></figcaption></figure></div>
 
-</details>
 
-<details>
 
-<summary>Payment method</summary>
+
+
+### Payment method
 
 Through this section, you can create, edit, and manage all payment types used in the system. Active (enabled) payment methods are available for use in the sales process.
 
@@ -164,11 +164,11 @@ Through this section, you can create, edit, and manage all payment types used in
 
 <figure><img src="../.gitbook/assets/image (527).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Receipt</summary>
+
+
+### Receipt
 
 Through this section, you can fully customize the appearance of receipts printed in the system. Here, texts, elements, and overall design of the receipt are managed.
 
@@ -211,11 +211,11 @@ On the right side, a **real-time preview (sample)** of the receipt is shown:
 
 <figure><img src="../.gitbook/assets/image (531).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Bot messages</summary>
+
+
+### Bot messages
 
 Through this section, you can configure the content and appearance of bot messages sent from the system (e.g., Report bot, Customer bot).
 
@@ -255,11 +255,11 @@ is displayed in real-time.
 
 <figure><img src="../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>SMS settings</summary>
+
+
+### SMS settings
 
 Through this section, you can automate and configure SMS messages sent to customers. Mainly used for debt, installment, or other reminders.
 
@@ -289,11 +289,11 @@ Through this section, you can automate and configure SMS messages sent to custom
 
 <figure><img src="../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Marketing SMS settings</summary>
+
+
+### Marketing SMS settings
 
 Through this section, you can configure SMS messages for marketing purposes. Mainly used for automatically notifying customers about **expected goods (arrived products)**.
 
@@ -309,11 +309,11 @@ Through this section, you can configure SMS messages for marketing purposes. Mai
   * When new goods are received
   * When customer needs to be notified
 
-</details>
 
-<details>
 
-<summary>Labels</summary>
+
+
+### Labels
 
 Through this section, you can create labels (tags) for products and fully customize their design.
 
@@ -365,11 +365,11 @@ Once each element is added, it is placed within the label.
 
 <figure><img src="../.gitbook/assets/image (550).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Loyalty card</summary>
+
+
+### Loyalty card
 
 Through this section, you can create **loyalty cards** for customers and customize their design. Functionally, this section works similarly to the label settings.
 
@@ -408,11 +408,11 @@ To add an element to the card, press the "+" button and select from the followin
   * repositioned
 * In the center, how the card looks is shown as a **real preview**
 
-</details>
 
-<details>
 
-<summary>Device</summary>
+
+
+### Device
 
 Through this section, **devices** are created and managed for employees to access the mobile application.
 
@@ -447,11 +447,11 @@ Then **save** to add the device to the system.
 4. Selects the **created device** from the system
 5. Only then can they access the system
 
-</details>
 
-<details>
 
-<summary>Device security</summary>
+
+
+### Device security
 
 This section serves to **control access to the system through devices and enhance security**.
 
@@ -494,11 +494,11 @@ This section serves to **control access to the system through devices and enhanc
 * If enabled:\
   → only these IP addresses can access the system
 
-</details>
 
-<details>
 
-<summary>Open receipts</summary>
+
+
+### Open receipts
 
 This section is used to manage incomplete sales (open receipts) in the system. Here, sales started by the cashier but not yet closed are saved, and they can be continued or completed later.
 
@@ -511,11 +511,11 @@ An open receipt is a state where products are selected but the sale is not yet f
 * Complete the sale (by making payment)
 * Delete unnecessary receipts
 
-</details>
 
-<details>
 
-<summary>Sales settings</summary>
+
+
+### Sales settings
 
 This section is used to manage the main logic and restrictions of the sales process. Here, cashier workflow, discounts, debt, cashback, and other important functions are enabled or disabled.
 
@@ -581,11 +581,11 @@ This section is used to manage the main logic and restrictions of the sales proc
 
 <figure><img src="../.gitbook/assets/image (567).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Scale settings</summary>
+
+
+### Scale settings
 
 This section is used to configure working with scales (electronic scales) and **automatically identifying products via barcode**. It is mainly important for products sold by weight (fruits, vegetables, etc.).
 
@@ -620,11 +620,11 @@ When a product is weighed on the scale:
   → automatically finds the product\
   → calculates weight and determines price
 
-</details>
 
-<details>
 
-<summary>Distribution settings</summary>
+
+
+### Distribution settings
 
 This section is used to **specify the order type** used in distribution (distribution) processes. That is, here you can configure what type orders created in the system belong to.
 
@@ -638,11 +638,11 @@ This page has only one main parameter:
 
 Whichever is selected, those orders will go there.
 
-</details>
 
-<details>
 
-<summary>Finance settings</summary>
+
+
+### Finance settings
 
 This section is used to manage financial processes in the system, that is, to configure currency operations and cash (cash flow) related operations.
 
@@ -671,11 +671,11 @@ This section is used to manage financial processes in the system, that is, to co
 
 Finance settings are very important for properly managing cash flows in the system, reducing errors, and ensuring security. Through these settings, you control currency operations, establish cash discipline, and automate financial processes.
 
-</details>
 
-<details>
 
-<summary>Box types</summary>
+
+
+### Box types
 
 This section is used to create and manage packaging (box) types used for products in the system. That is, here you configure in what units (box, roll, etc.) products are counted.
 
@@ -694,11 +694,11 @@ Pressing the "Create" button opens the creation window where information is fill
 
 Box types are important for managing products in correct units and accurate calculation in warehouse and sales processes. Through this, you can manage the same product in different packages (e.g., piece, box, roll) and ensure orderly system operation.
 
-</details>
 
-<details>
 
-<summary>Cashback</summary>
+
+
+### Cashback
 
 This section allows you to configure and manage the cashback (return bonus) system for customers. Through cashback, customers receive a certain percentage or amount back after making a purchase.
 
@@ -734,11 +734,11 @@ Cashback is tied to a specific product or category.
 
 <figure><img src="../.gitbook/assets/image (578).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Customer reminders</summary>
+
+
+### Customer reminders
 
 This section is used to configure the timing for sending automatic reminders to customers. Through this, the system can remind customers after or before a certain time.
 
@@ -750,11 +750,11 @@ This section is used to configure the timing for sending automatic reminders to 
 
 The customer reminders function is important for improving communication with customers, not forgetting services, and increasing service quality. This setting works especially effectively in service provision, booking, or queuing systems.
 
-</details>
 
-<details>
 
-<summary>Online payment settings</summary>
+
+
+### Online payment settings
 
 This section is used to configure online payments (payment via QR) in the system and select the main payment provider. Through this, customers can make quick and convenient payments using QR codes.
 
@@ -767,11 +767,11 @@ This section is used to configure online payments (payment via QR) in the system
 
 Online payment settings play an important role in modern sales processes. Enabling payment via QR code allows customers to make quick and contactless payments, which increases service speed and creates convenience for customers.
 
-</details>
 
-<details>
 
-<summary>Print templates</summary>
+
+
+### Print templates
 
 This section allows you to configure print, download, and send templates for documents (sales, purchase, warehouse, and others) in the system. For each section, separate templates can be uploaded, edited, and set as default.
 

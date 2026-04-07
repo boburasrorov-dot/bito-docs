@@ -1,8 +1,8 @@
 # Tasks
 
-<details open>
 
-<summary>Working with Tasks</summary>
+
+### Working with Tasks
 
 When entering **CRM → Tasks**, a list of all tasks created in the system is displayed. Tasks can be viewed by day, week, and month.
 
@@ -34,4 +34,3 @@ As a result, employee activities are monitored through tasks and workflows are m
 
 <div><figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure></div>
 
-</details>

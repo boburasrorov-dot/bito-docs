@@ -1,18 +1,18 @@
 # About Bito ERP
 
-<details>
 
-<summary>What is Bito ERP?</summary>
+
+### What is Bito ERP?
 
 Bito ERP is a comprehensive management system designed for small and medium-sized retail and wholesale businesses, enabling the automation of trade, warehouse, procurement, finance, production, CRM, and distribution processes on a single platform.
 
 The system simplifies daily business operations, reduces human errors, and provides management with deep analytical reports in real-time.
 
-</details>
 
-<details>
 
-<summary>Who is it for?</summary>
+
+
+### Who is it for?
 
 Bito ERP is highly effective for the following types of businesses:
 
@@ -25,11 +25,11 @@ Bito ERP is highly effective for the following types of businesses:
 
 If your business involves product movement, sales control, and financial accounting — Bito ERP is a perfect fit.
 
-</details>
 
-<details>
 
-<summary>How does Bito ERP work?</summary>
+
+
+### How does Bito ERP work?
 
 Bito ERP is designed to manage all processes in small and medium-sized businesses—from product movement to financial results—in a single system.
 
@@ -109,11 +109,11 @@ As a result:
 * Distribution becomes transparent
 * Sales representative efficiency is measured
 
-</details>
 
-<details>
 
-<summary>Reports and analytics</summary>
+
+
+### Reports and analytics
 
 Bito ERP not only manages operational processes but also provides management-level analytical insights based on collected data. The system shows the true state of the business through indicators updated in real-time.
 
@@ -203,4 +203,3 @@ This data enables:
 * Cash flow management
 * Financial stability assurance
 
-</details>

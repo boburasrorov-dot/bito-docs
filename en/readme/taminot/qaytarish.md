@@ -1,8 +1,8 @@
 # Returns
 
-<details open>
 
-<summary>Returns</summary>
+
+### Returns
 
 Through the Supply → Returns section, the process of returning products for purchases made in the system is carried out. In this section, returns are performed simply and quickly — all data is entered in one window without being divided into separate sections.
 
@@ -65,4 +65,3 @@ As a result, the return process is carried out simply and quickly, products are 
 
 
 
-</details>

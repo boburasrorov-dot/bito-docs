@@ -1,8 +1,8 @@
 # Производство
 
-<details>
 
-<summary>Производство продукции</summary>
+
+### Производство продукции
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,11 +45,11 @@
 * видеть, какая продукция и в каком количестве была произведена
 * оценивать эффективность производства
 
-</details>
 
-<details>
 
-<summary>Производство по ответственным лицам</summary>
+
+
+### Производство по ответственным лицам
 
 <figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,11 +84,11 @@
 * оценивать рабочую деятельность сотрудников
 * контролировать производственные расходы
 
-</details>
 
-<details>
 
-<summary>Рекомендуемое количество сырья</summary>
+
+
+### Рекомендуемое количество сырья
 
 <figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
@@ -133,11 +133,11 @@
 
 
 
-</details>
 
-<details>
 
-<summary>Производство продукции по сотрудникам</summary>
+
+
+### Производство продукции по сотрудникам
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
@@ -166,4 +166,3 @@
 * определять, какой продукции и кем было произведено больше
 * контролировать производственный процесс в разрезе сотрудников
 
-</details>

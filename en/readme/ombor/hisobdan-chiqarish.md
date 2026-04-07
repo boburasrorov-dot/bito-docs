@@ -1,8 +1,8 @@
 # Write-off
 
-<details open>
 
-<summary>Write-off </summary>
+
+### Write-off 
 
 The write-offs section is used to carry out the process of writing off products from the warehouse based on various reasons. This process is used to formalize the removal of products from the warehouse due to expiration, loss, or other reasons.
 
@@ -41,4 +41,3 @@ For each product:
 * **Box quantity** — quantity by packaging
 * **Expiration date** — if available
 
-</details>

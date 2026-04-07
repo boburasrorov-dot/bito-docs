@@ -1,8 +1,8 @@
 # Purchases
 
-<details open>
 
-<summary>Creating Purchases</summary>
+
+### Creating Purchases
 
 When the **Create** button is pressed in the Supply → Purchases section, a new purchase creation window opens.\
 Through this section, receiving products from suppliers, warehouse receipts, and managing payment processes are carried out. Through the Purchases section, all real operations — product receipts, additional expenses, and financial calculations are managed in a unified system.
@@ -115,4 +115,3 @@ Additional feature:
 After all stages are completed and saved, the purchase is finalized.\
 As a result, products are received into the warehouse, additional expenses are accounted for, and financial settlement with the supplier is fully formed.
 
-</details>

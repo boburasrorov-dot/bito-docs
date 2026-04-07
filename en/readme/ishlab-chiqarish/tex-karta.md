@@ -1,8 +1,8 @@
 # Routing
 
-<details open>
 
-<summary>Creating a routing</summary>
+
+### Creating a routing
 
 The routing section is used to link production stages in sequence and form a complete production process. Here, stages are interconnected, and the order in which the product is manufactured is defined.
 
@@ -32,4 +32,3 @@ System operation logic:
 * Each stage is connected to the next stage, forming a complete production chain
 * This routing is subsequently applied in the production process
 
-</details>

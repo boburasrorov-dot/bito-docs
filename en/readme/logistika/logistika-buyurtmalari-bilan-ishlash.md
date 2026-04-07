@@ -1,8 +1,8 @@
 # Working with Logistics Orders
 
-<details open>
 
-<summary>Orders</summary>
+
+### Orders
 
 **Orders (Logistics Department)** serves to manage delivery-related orders created during the sales process. If customer information or delivery address was entered during the sale, the system automatically creates an order in the logistics department based on this information. This organically links sales and delivery processes, eliminates the need for manual re-entry, and reduces the likelihood of errors.
 
@@ -36,4 +36,3 @@ In kanban view, orders are displayed as cards divided by status (e.g.: **New, Co
 
 This section is directly linked to sales, and every delivery order created in sales is reflected here. Therefore, logistics staff can track and manage all delivery processes solely through this section. This centralizes the process, prevents orders from being lost, and enables systematic control of deliveries.
 
-</details>

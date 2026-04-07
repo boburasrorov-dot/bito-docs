@@ -1,8 +1,8 @@
 # Internal Transfers
 
-<details>
 
-<summary>Internal Transfer Requests</summary>
+
+### Internal Transfer Requests
 
 Through the Internal Transfer Requests section, you can create advance requests for transferring products between warehouses and control the process. This process helps systematically organize logistics and warehouse management.
 
@@ -45,11 +45,11 @@ If a product is running out in one warehouse, an internal transfer request is fi
 
 
 
-</details>
 
-<details>
 
-<summary>Internal Transfers</summary>
+
+
+### Internal Transfers
 
 Through the Internal Transfers section, the actual process of transferring products between warehouses is carried out. This section allows transferring products from one warehouse to another based on internal transfer requests or independently.
 
@@ -94,4 +94,3 @@ Additional features:
 
 If products need to be sent from "Main Warehouse" to "Store Warehouse," an internal transfer document is created, and after approval, the product is decreased from one warehouse and added to the other.
 
-</details>

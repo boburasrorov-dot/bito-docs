@@ -1,8 +1,8 @@
 # Video Report Type
 
-<details open>
 
-<summary>Video Report Type</summary>
+
+### Video Report Type
 
 The Video Report Type section allows creating and managing types (categories) for video reports submitted by agents. Through this section, the user predefines what types of videos are required from agents. For example, types such as "Store Interior Video" or "Product Placement Video" are created, and the agent is required to upload exactly these types of videos during the visit. This section is used to strengthen control and improve visit quality.
 
@@ -32,4 +32,3 @@ The main feature of this section is that it works similarly to photo report type
 
 As a result, the company establishes full control through video during visits, creates the ability to evaluate agent activities more accurately, and improves report quality.
 
-</details>

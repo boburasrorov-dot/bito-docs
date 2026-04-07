@@ -1,8 +1,8 @@
 # Messages
 
-<details open>
 
-<summary>Creating a message template</summary>
+
+### Creating a message template
 
 The Messages section allows you to create and manage templates for messages sent to customers and users. Through this section, pre-prepared texts are stored and used automatically or manually in necessary processes.\
 This section is used to speed up the messaging process, maintain consistent formatting, and standardize communication.
@@ -24,4 +24,3 @@ Message templates provide the following capabilities:
 
 Through this section, you can optimize the customer communication process and systematically manage message sending.
 
-</details>

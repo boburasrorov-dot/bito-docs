@@ -1,8 +1,8 @@
 # Label
 
-<details open>
 
-<summary>Label printing</summary>
+
+### Label printing
 
 The Label function is used to prepare and print **labels (tags)** for products. The appearance of the label and what information is displayed on it is configured in **settings**.
 
@@ -22,4 +22,4 @@ After products are added, the system **prepares the number of labels based on th
 
 This allows you to quickly and conveniently prepare and print the required number of labels for products.
 
-</details> 
+ 

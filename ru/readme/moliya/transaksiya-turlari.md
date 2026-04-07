@@ -1,8 +1,8 @@
 # Transaksiya turlari
 
-<details open>
 
-<summary>Transaksiya turlari yaratish </summary>
+
+### Transaksiya turlari yaratish 
 
 **Tranzaksiya turlari bo‘lim**i orqali tizimda barcha moliyaviy operatsiyalar uchun tur (kategoriya)lar yaratiladi va boshqariladi. Ushbu bo‘lim kirim va chiqim operatsiyalarini tartibga solish, ularni to‘g‘ri klassifikatsiya qilish hamda hisobotlarda aniq ajratib ko‘rsatish uchun xizmat qiladi.
 
@@ -47,4 +47,3 @@ Har bir tranzaksiya turi aniq bir biznes jarayonni ifodalaydi. Masalan:
 * **Qarz olish** → kirim
 * **Qarz berish** → chiqim
 
-</details>

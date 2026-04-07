@@ -1,8 +1,8 @@
 # Warehouses
 
-<details>
 
-<summary>Warehouses</summary>
+
+### Warehouses
 
 Through the Warehouses section, locations where products are stored (warehouses) are created and managed in the system. This section enables proper organization of the warehouse structure and precise control over product movement.
 
@@ -59,11 +59,11 @@ Importance of warehouses in the system:
 For example:\
 If a company has a "Main Warehouse" and "Store Warehouse," it is clearly visible where products are located and transfers can be made between them when needed.
 
-</details>
 
-<details>
 
-<summary>Warehouse Types</summary>
+
+
+### Warehouse Types
 
 Through the Warehouse Types section, warehouses can be categorized in the system and managed in an organized manner. This section enables grouping warehouses according to their function and facilitates their management later.
 
@@ -81,4 +81,3 @@ The following information is entered:
 
 If there are multiple warehouses in the system, dividing them into types such as "Main," "Sales Warehouse," "Reserve Warehouse" clearly defines the function of each and makes management much more convenient.
 
-</details>

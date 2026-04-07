@@ -2,9 +2,9 @@
 
 
 
-<details open>
 
-<summary>Working with Expected Products</summary>
+
+### Working with Expected Products
 
 When accessing **Marketing → Expected Products**, a list of all expected products created in the system is displayed.
 
@@ -38,4 +38,3 @@ As a result, the ability to notify the customer when the product arrives at the 
 
 
 
-</details>

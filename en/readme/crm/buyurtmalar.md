@@ -1,8 +1,8 @@
 # Orders
 
-<details>
 
-<summary>Orders list</summary>
+
+### Orders list
 
 When entering the **CRM → Orders** section, a list of all orders created in the system is displayed.
 
@@ -14,11 +14,11 @@ Through this section, you can create, manage, and control orders received from c
 
 An order is a request from a customer for a product or service, which is later converted into a sale.
 
-</details>
 
-<details>
 
-<summary>Creating an order</summary>
+
+
+### Creating an order
 
 To create a new order, press the **Create** button and proceed through the following steps:
 
@@ -78,11 +78,11 @@ Additional expenses
 • After finalizing the order, it can be converted into a sales document\
 • Through this, the order becomes an actual sale and accounting begins
 
-</details>
 
-<details>
 
-<summary>Orders list (kanban view)</summary>
+
+
+### Orders list (kanban view)
 
 In the orders section, orders can also be viewed in Kanban (column) format.
 
@@ -115,11 +115,11 @@ After the **In progress** stage, users can add stages as desired and name them
 • Quick identification of problem stages\
 • Simplified order management
 
-</details>
 
-<details>
 
-<summary>Dashboard</summary>
+
+
+### Dashboard
 
 In the CRM → Dashboard section, general statistics and analytical data on orders are displayed.
 
@@ -234,4 +234,3 @@ Through this:
 • identify top salespeople\
 • assess team performance
 
-</details>

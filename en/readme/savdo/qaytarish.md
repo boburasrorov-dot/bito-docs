@@ -1,8 +1,8 @@
 # Return
 
-<details>
 
-<summary>Return reasons</summary>
+
+### Return reasons
 
 In the sales return process, **Return reasons** are used to indicate why a product was returned. These reasons are created in the system in advance and are selected when formalizing the return document.
 
@@ -32,11 +32,11 @@ If **Invalid** is selected – the returned product is **received in the selecte
 
 This way, the system **automatically accounts for the valid or invalid status of returned products**.
 
-</details>
 
-<details>
 
-<summary>Returning created sales</summary>
+
+
+### Returning created sales
 
 #### Returning a sale (from within the sales document)
 
@@ -147,4 +147,3 @@ This method is usually used in the following cases:
 
 After the data is entered, the return document is saved and the products are reflected in the system as returned to the warehouse.
 
-</details>

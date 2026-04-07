@@ -1,8 +1,8 @@
 # KPI
 
-<details open>
 
-<summary>Setting and Viewing KPI</summary>
+
+### Setting and Viewing KPI
 
 The **KPI section** is used to evaluate employee performance and calculate bonuses (incentives) for them. Through this section, KPIs are set for a specific period and the system automatically calculates employee results based on established criteria. This helps motivate employees and increase business metrics.
 
@@ -81,4 +81,3 @@ If an employee (for example: Bobur) makes **8,000,000 UZS in sales** in one week
 
 As a result, this amount is displayed per employee within the KPI.
 
-</details>

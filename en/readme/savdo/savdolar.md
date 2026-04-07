@@ -1,8 +1,8 @@
 # Sales
 
-<details>
 
-<summary>Sales module</summary>
+
+### Sales module
 
 The sales module allows viewing and managing all sales created in the system. To access the module, select the **Sales** section from the left menu and the **Sales** page opens.
 
@@ -69,11 +69,11 @@ At the bottom of the sales document, a list of products sold in this sale is sho
 
 <figure><img src="../../.gitbook/assets/image (275).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Creating a sale</summary>
+
+
+### Creating a sale
 
 Creating a new sales document in the system is done via the **Create** button. A sale can be created.
 
@@ -308,11 +308,11 @@ If **payment was made through online payment systems** for the sale, this button
 **4. Create payment link (fourth button)**\
 If the system is **integrated with other online payment services**, this button creates a **payment link** to send to the customer. The customer can make payment for the sale online through this link.
 
-</details>
 
-<details>
 
-<summary>Setting plans</summary>
+
+
+### Setting plans
 
 Sales plan setting — this is a function for setting sales targets for employees for a specific period (month). Through this section, a separate plan is set for each employee, and their fulfillment is subsequently monitored in the system.
 
@@ -339,11 +339,11 @@ For each employee, the following fields are filled in:
 
 Through the sales plan setting function, the company sets clear goals, monitors employee activity, and has the opportunity to systematically increase sales results.
 
-</details>
 
-<details>
 
-<summary>Sales dashboard</summary>
+
+
+### Sales dashboard
 
 The sales dashboard displays **key indicators and analytical data** on sales activity on one page. Through this page, users can quickly monitor sales status and analyze key statistics. Data is typically formed **based on a selected date range**.
 
@@ -443,4 +443,3 @@ In this section, **most active employees** by sales volume are displayed. The fo
 
 This information helps evaluate employee efficiency and analyze sales results.
 
-</details>

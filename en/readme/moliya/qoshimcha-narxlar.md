@@ -1,8 +1,8 @@
 # Additional Prices
 
-<details open>
 
-<summary>Additional prices (expenses)</summary>
+
+### Additional prices (expenses)
 
 The Additional Prices section is used to create and manage additional expenses that arise during sales or procurement processes. This section enables you to link logistics, service, tax, or other additional expenses to product prices and calculate them correctly.
 
@@ -45,4 +45,3 @@ Once an additional expense is created, it is applied in sales or procurement doc
 
 For example, if a delivery expense is added and set to affect the price, the final price of the product automatically increases or is added to the cost.
 
-</details>

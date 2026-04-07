@@ -1,8 +1,8 @@
 # Positions
 
-<details open>
 
-<summary>Positions</summary>
+
+### Positions
 
 **The Positions section** is used to define employees' roles in the system and link them to a specific department. Through this section, various positions within the company (for example: Salesperson, Accountant, Manager, etc.) are created, and employees' responsibilities and their place in the system are determined through them. This greatly simplifies the management of permissions and roles.
 
@@ -41,4 +41,3 @@ The Positions section is **directly linked to permissions**, and later each posi
 
 As a result, a clear structure is formed in the company, and employees' responsibilities and system access rights are managed in an organized manner.
 
-</details>

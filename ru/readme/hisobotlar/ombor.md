@@ -1,8 +1,8 @@
 # Склад
 
-<details>
 
-<summary>Остаток товаров по организациям</summary>
+
+### Остаток товаров по организациям
 
 <figure><img src="../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,11 +38,11 @@
 * можно выявлять избыточные или недостающие товары
 * можно оптимизировать логистику и управление складом
 
-</details>
 
-<details>
 
-<summary>Отчет по перемещениям</summary>
+
+
+### Отчет по перемещениям
 
 <figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
@@ -104,11 +104,11 @@
 * можно анализировать причины перемещения товаров
 * можно эффективно организовать логистику и управление складом
 
-</details>
 
-<details>
 
-<summary>Просмотр товаров за период времени</summary>
+
+
+### Просмотр товаров за период времени
 
 <figure><img src="../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
@@ -148,11 +148,11 @@
 * можно отслеживать товары в процессе перемещения
 * можно анализировать и планировать складские запасы
 
-</details>
 
-<details>
 
-<summary>Рекомендуемое количество товара</summary>
+
+
+### Рекомендуемое количество товара
 
 <figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 
@@ -196,11 +196,11 @@
 * можно правильно планировать закупку товаров
 * можно эффективно управлять складскими запасами
 
-</details>
 
-<details>
 
-<summary>Приход-расход товаров</summary>
+
+
+### Приход-расход товаров
 
 <figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
@@ -270,11 +270,11 @@
 * можно контролировать результаты инвентаризации
 * можно эффективно организовать товарооборот и управление складом
 
-</details>
 
-<details>
 
-<summary>Остатки товаров по складам</summary>
+
+
+### Остатки товаров по складам
 
 <figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 
@@ -312,11 +312,11 @@
 * можно эффективно управлять товарными запасами
 * можно выявлять недостающие или избыточные товары
 
-</details>
 
-<details>
 
-<summary>Остаток товаров по статусам</summary>
+
+
+### Остаток товаров по статусам
 
 <figure><img src="../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 
@@ -392,11 +392,11 @@
 * можно предотвратить окончание запасов
 * можно более эффективно организовать управление складом
 
-</details>
 
-<details>
 
-<summary>Приход товаров</summary>
+
+
+### Приход товаров
 
 <figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 
@@ -440,11 +440,11 @@
 * можно отслеживать себестоимость поступления товаров
 * можно вести более точный учет склада
 
-</details>
 
-<details>
 
-<summary>Отчет по списанию</summary>
+
+
+### Отчет по списанию
 
 <figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
 
@@ -483,4 +483,3 @@
 * можно вести более точный складской учет
 * можно принимать решения по сокращению потерь товаров
 
-</details>

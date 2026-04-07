@@ -1,8 +1,8 @@
 # Brand
 
-<details open>
 
-<summary>Creating a Brand</summary>
+
+### Creating a Brand
 
 The Brand section allows you to create and manage brands for products in the system. Through this section, users can assign products to a specific brand, organize them systematically, and facilitate analysis. This is especially important for assortment management and brand-based analysis in reports.
 
@@ -26,4 +26,3 @@ In this section, all brands are displayed in a table view.
 
 This section works in conjunction with manufacturers and helps properly categorize products. Therefore, users can systematically and efficiently manage products by selecting the brand when creating products.
 
-</details>

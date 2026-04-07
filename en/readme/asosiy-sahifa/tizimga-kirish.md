@@ -1,8 +1,8 @@
 # System Login
 
-<details>
 
-<summary>Selecting a language before logging in</summary>
+
+### Selecting a language before logging in
 
 Before logging into the BITO system, you can select the interface language.
 
@@ -15,11 +15,11 @@ Before logging into the BITO system, you can select the interface language.
 
 <figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Login via phone number and password</summary>
+
+
+### Login via phone number and password
 
 To log into the system, the following are required:
 
@@ -42,11 +42,11 @@ If the information is correct, you will successfully log into the system.
 
 <figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Password recovery</summary>
+
+
+### Password recovery
 
 If you have forgotten your password, you can reset it independently.
 
@@ -64,11 +64,11 @@ If you have forgotten your password, you can reset it independently.
 
 <figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Login via one-time password (SMS)</summary>
+
+
+### Login via one-time password (SMS)
 
 In the BITO system, users can log in using a **one-time SMS code** instead of entering a password.
 
@@ -82,4 +82,3 @@ In the BITO system, users can log in using a **one-time SMS code** instead of en
 
 <figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
-</details>

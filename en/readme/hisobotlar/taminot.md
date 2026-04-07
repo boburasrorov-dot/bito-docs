@@ -1,8 +1,8 @@
 # Procurement
 
-<details>
 
-<summary>Product Cost Price</summary>
+
+### Product Cost Price
 
 <figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,4 +45,3 @@ Using this report, you can:
 * analyze the receipt history of products
 * control warehouse accounting and product cost price
 
-</details>

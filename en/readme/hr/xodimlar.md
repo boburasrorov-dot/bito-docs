@@ -1,8 +1,8 @@
 # Employees
 
-<details>
 
-<summary>Adding an Employee</summary>
+
+### Adding an Employee
 
 The **Employees section** serves to manage all employees in the system and maintain their information. Through this section, you can register employees, associate them with their position, department, and system role. Additionally, granting employees access to the system or storing them only as information is also managed here.
 
@@ -55,11 +55,11 @@ By assigning a position and permissions to an employee, their system rights are 
 
 Through this section, it is possible to manage all company employees centrally, control their roles, and ensure system security.
 
-</details>
 
-<details>
 
-<summary>Employee Card (created employee window)</summary>
+
+
+### Employee Card (created employee window)
 
 The **Employee Card (created employee window)** serves to view all information about an employee, track their balance, and manage financial and system operations related to them. In this window, the employee's basic information, permissions, and all related actions are collected in one place.
 
@@ -106,4 +106,3 @@ Table columns:
 
 In this window, the user can fully control all financial transactions related to the employee. Therefore, this page is important for maintaining settlements with employees, identifying debts or overpayments, and tracking the overall financial situation.
 
-</details>

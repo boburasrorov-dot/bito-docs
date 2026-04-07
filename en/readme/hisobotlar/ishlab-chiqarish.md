@@ -1,8 +1,8 @@
 # Production
 
-<details>
 
-<summary>Product Manufacturing</summary>
+
+### Product Manufacturing
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,11 +45,11 @@ Using this report, you can:
 * see which products were manufactured and in what quantities
 * assess production efficiency
 
-</details>
 
-<details>
 
-<summary>Production by Responsible Person</summary>
+
+
+### Production by Responsible Person
 
 <figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,11 +84,11 @@ Using this report, you can:
 * evaluate employee work performance
 * control production costs
 
-</details>
 
-<details>
 
-<summary>Recommended Raw Material Quantity</summary>
+
+
+### Recommended Raw Material Quantity
 
 <figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
@@ -133,11 +133,11 @@ Using this report, you can:
 
 
 
-</details>
 
-<details>
 
-<summary>Product Manufacturing by Employees</summary>
+
+
+### Product Manufacturing by Employees
 
 <figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
@@ -166,4 +166,3 @@ Using this report, you can:
 * identify which products were manufactured most by whom
 * control the production process by employees
 
-</details>

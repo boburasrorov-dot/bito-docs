@@ -1,8 +1,8 @@
 # Services
 
-<details open>
 
-<summary>Services</summary>
+
+### Services
 
 Through the Services section, services that are sold or provided in the system are created and managed. This section works similarly to products, but inventory is not tracked for services.
 
@@ -46,4 +46,3 @@ The importance of services in the system:
 For example:\
 If a "Computer Repair" service is created, it is not linked to the warehouse. The user only sets the price and selects this service during sales.
 
-</details>

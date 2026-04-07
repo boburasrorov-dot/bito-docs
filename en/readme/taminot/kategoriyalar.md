@@ -1,8 +1,8 @@
 # Categories
 
-<details open>
 
-<summary>Creating a Category</summary>
+
+### Creating a Category
 
 In the Supply → Categories section, clicking the **Create** button opens a new category creation window.
 
@@ -27,4 +27,3 @@ Through the following section, it is specified which objects the category belong
 After all information is entered, it is saved and the category is added to the system.\
 As a result, the ability to group suppliers is created, and working with them becomes more organized and convenient.
 
-</details>

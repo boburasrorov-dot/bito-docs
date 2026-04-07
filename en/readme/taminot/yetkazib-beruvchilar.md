@@ -1,8 +1,8 @@
 # Suppliers
 
-<details open>
 
-<summary>Working with suppliers</summary>
+
+### Working with suppliers
 
 In the Supply → Suppliers section, clicking the **Create** button opens a new supplier creation window.
 
@@ -45,4 +45,3 @@ Additional information:
 After all information is entered, it is saved and the supplier is added to the system.\
 As a result, the process of working with suppliers is centralized, creating the ability to quickly select and control during purchasing processes.
 
-</details>

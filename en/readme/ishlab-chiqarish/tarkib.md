@@ -1,8 +1,8 @@
 # Composition
 
-<details open>
 
-<summary>Creating Composition</summary>
+
+### Creating Composition
 
 
 
@@ -76,4 +76,3 @@ During system operation:
 * Finished products are added to warehouse
 * Additional costs are added to product cost
 
-</details>

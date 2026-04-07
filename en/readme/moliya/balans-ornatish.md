@@ -1,8 +1,8 @@
 # Balance Setup
 
-<details>
 
-<summary>Customer Balance Setup</summary>
+
+### Customer Balance Setup
 
 This section allows manual entry and comparison of balances for customers. This process is used to adjust accounts and align them with the actual state.
 
@@ -39,11 +39,11 @@ Balances are entered in the following currencies:
 
 <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Employee Balance Setup</summary>
+
+
+### Employee Balance Setup
 
 This section allows manual entry and comparison of balances for employees. This process is used to adjust financial accounts related to employees.
 
@@ -71,11 +71,11 @@ Balances are maintained in the following currencies:
 
 
 
-</details>
 
-<details>
 
-<summary>Supplier Balance Setup</summary>
+
+
+### Supplier Balance Setup
 
 This section allows manual entry and comparison of balances for suppliers. This process is used to verify accounts with suppliers.
 
@@ -100,11 +100,11 @@ A list of suppliers is displayed in the balance setup window.
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Cash Register Balance Setup</summary>
+
+
+### Cash Register Balance Setup
 
 This section allows manual entry and comparison of balances for cash registers. This process is used to align cash funds with the actual state.
 
@@ -131,11 +131,11 @@ Balances are maintained in the following segments:
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Third Party Balance Setup</summary>
+
+
+### Third Party Balance Setup
 
 This section allows manual entry and comparison of balances for third parties (debtors or other external entities) in the system. This process is used to adjust accounts and align them with the actual state.
 
@@ -162,4 +162,3 @@ Balances are maintained in the following currencies:
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-</details>

@@ -1,8 +1,8 @@
 # Task
 
-<details open>
 
-<summary>Creating a Task</summary>
+
+### Creating a Task
 
 The Task section is used to launch and manage the production process in practice. Here, production tasks (assignments) are created based on previously created technical cards, and the workflow is monitored.
 
@@ -30,4 +30,3 @@ The most important part of the task is where the **technical card is selected**.
 * **Norm** – standard production indicator
 * **Planned** – the volume planned for execution
 
-</details>

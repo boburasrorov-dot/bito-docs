@@ -1,8 +1,8 @@
 # Currencies
 
-<details open>
 
-<summary>Currencies</summary>
+
+### Currencies
 
 The Currencies section allows you to create and manage all monetary units used in the system. This section enables working with different currencies, performing conversions, and properly conducting financial operations.
 
@@ -25,4 +25,3 @@ The Currencies section serves for maintaining multi-currency accounting, setting
 
 <figure><img src="../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
 
-</details>

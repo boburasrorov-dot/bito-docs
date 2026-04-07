@@ -1,8 +1,8 @@
 # Purchase Reasons
 
-<details open>
 
-<summary>Creating purchase reasons</summary>
+
+### Creating purchase reasons
 
 In the Supply → Purchase Reasons section, clicking the **Create** button opens a new reason creation window.
 
@@ -26,4 +26,3 @@ After all information is entered, it is saved and the reason is added to the sys
 
 As a result, purchases are conducted based on specific reasons, and this data enables the analysis, planning, and optimization of purchasing processes.
 
-</details>

@@ -1,8 +1,8 @@
 # Задачи
 
-<details open>
 
-<summary>Работа с задачами</summary>
+
+### Работа с задачами
 
 При входе в **CRM → Задачи** отображается список всех задач, созданных в системе. Доступна возможность просмотра задач в разрезе дня, недели и месяца.
 
@@ -34,4 +34,3 @@
 
 <div><figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure></div>
 
-</details>

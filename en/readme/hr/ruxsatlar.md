@@ -1,8 +1,8 @@
 # Permissions
 
-<details open>
 
-<summary>Permissions</summary>
+
+### Permissions
 
 **The Permissions section** is used to manage employee capabilities in the system. Through this section, it is precisely defined which module each position or employee can access and which operations they can perform. This ensures system security and enables control over each user working within their scope of responsibilities.
 
@@ -53,4 +53,3 @@ Therefore, when configuring permissions, it is important to consider interdepend
 
 Through this section, it is possible to precisely manage who can do what in the system, standardize roles, and ensure high-level security.
 
-</details>

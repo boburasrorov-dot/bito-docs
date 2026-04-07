@@ -1,8 +1,8 @@
 # Stage
 
-<details open>
 
-<summary>Creating a Stage</summary>
+
+### Creating a Stage
 
 The Stages section allows you to divide the production process into separate steps and manage them in the system. Each stage represents a specific part of production (for example: preparation, processing, packaging, etc.). Through this section, you can organize the production process in a structured and controlled manner.
 
@@ -27,4 +27,3 @@ Through this section, you can achieve the following:
 * Monitor and optimize the process
 * Reuse stages in bills of materials
 
-</details>

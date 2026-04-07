@@ -1,8 +1,8 @@
 # Legal Entities
 
-<details open>
 
-<summary>Creating Legal Entities</summary>
+
+### Creating Legal Entities
 
 The Legal Entities section allows storing and managing information about organizations (companies) in the system. Through this section, users can register client or partner organizations and maintain their details and contact information in one place. Additionally, this information is automatically used in sales, purchasing, and other processes. This section is used to simplify partner management and document workflow processes.
 
@@ -36,4 +36,3 @@ In this section, all legal entities are displayed in table view.
 
 This section creates a general organization database, and this information is selected and used in other sections. Therefore, users don't repeatedly enter the same information but work by selecting existing legal entities. This increases data accuracy and speeds up processes in the system.
 
-</details>

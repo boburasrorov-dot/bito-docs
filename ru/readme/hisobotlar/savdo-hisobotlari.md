@@ -1,8 +1,8 @@
 # Торговые отчеты
 
-<details>
 
-<summary>Общая торговля</summary>
+
+### Общая торговля
 
 <figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
@@ -39,11 +39,11 @@
 
 
 
-</details>
 
-<details>
 
-<summary>Продажи по товарам</summary>
+
+
+### Продажи по товарам
 
 <figure><img src="../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,11 +80,11 @@
 * **Итого** — показывает общие результаты по всем товарам в разрезе выбранного фильтра. Это позволяет быстро оценить общее состояние продаж и прибыли.
 * **Прогноз** — расчетные прогнозные показатели на основе имеющихся данных. Это служит для предварительной оценки будущих результатов и планирования.
 
-</details>
 
-<details>
 
-<summary>Продажи по категориям</summary>
+
+
+### Продажи по категориям
 
 <figure><img src="../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
 
@@ -113,11 +113,11 @@
 
 
 
-</details>
 
-<details>
 
-<summary>Продажи по типу оплаты</summary>
+
+
+### Продажи по типу оплаты
 
 <figure><img src="../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
@@ -137,11 +137,11 @@
 * Объем задолженности (продаж в кредит)
 * Уровень прибыли по каждому типу оплаты
 
-</details>
 
-<details>
 
-<summary>Продажи товаров</summary>
+
+
+### Продажи товаров
 
 <figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
@@ -175,11 +175,11 @@
 
 
 
-</details>
 
-<details>
 
-<summary>Продажи клиентов</summary>
+
+
+### Продажи клиентов
 
 <figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
@@ -202,11 +202,11 @@
 
 
 
-</details>
 
-<details>
 
-<summary>Продажи по клиентам</summary>
+
+
+### Продажи по клиентам
 
 <figure><img src="../../.gitbook/assets/photo_2026-04-03_14-50-36.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -240,11 +240,11 @@
 
 <figure><img src="../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Отчет о непродающихся товарах</summary>
+
+
+### Отчет о непродающихся товарах
 
 <figure><img src="../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
 
@@ -261,11 +261,11 @@
 
 <figure><img src="../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Отчет по посредникам</summary>
+
+
+### Отчет по посредникам
 
 <figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
@@ -285,11 +285,11 @@
 
 <figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Платежи клиентов</summary>
+
+
+### Платежи клиентов
 
 <figure><img src="../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
 
@@ -318,4 +318,3 @@
 
 Этот отчет позволяет управлять не только товарами, проданными в кредит, но и всеми платежами клиентов. Даже если продажа не была в кредит, она отражается в разделах **договоры**, **первоначальный платеж**, **платежи** и **завершенные договоры**. Через это можно контролировать все платежи клиентов в одном месте.
 
-</details>

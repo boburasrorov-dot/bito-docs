@@ -1,8 +1,8 @@
 # Contracts
 
-<details open>
 
-<summary>Contracts</summary>
+
+### Contracts
 
 The Contracts section is used to create and manage financial agreements with third parties in the system. This section enables the formalization and control of loans, payment obligations, and other financial operations.
 
@@ -37,4 +37,3 @@ A new contract is added through the **"Create"** button, where the following inf
 
 
 
-</details>

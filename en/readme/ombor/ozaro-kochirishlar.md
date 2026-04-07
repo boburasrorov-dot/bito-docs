@@ -1,8 +1,8 @@
 # Intercompany Transfers
 
-<details>
 
-<summary>Intercompany Transfer Requests</summary>
+
+### Intercompany Transfer Requests
 
 The intercompany transfer requests section is used to create advance requests for product transfers between organizations. This stage represents the agreement and planning process before the actual transfer.
 
@@ -40,11 +40,11 @@ Through this section, product movement between organizations is planned and cont
 
 
 
-</details>
 
-<details>
 
-<summary>Intercompany Transfers</summary>
+
+
+### Intercompany Transfers
 
 The intercompany transfers section is where the actual transfer of products between organizations takes place. This document is typically created based on an intercompany transfer request.
 
@@ -94,4 +94,3 @@ If one organization sends products to another branch, the process is formalized 
 
 
 
-</details>

@@ -1,8 +1,8 @@
 # CRM
 
-<details>
 
-<summary>Продажи по клиентам</summary>
+
+### Продажи по клиентам
 
 <figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
@@ -29,11 +29,11 @@
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Активность клиентов</summary>
+
+
+### Активность клиентов
 
 <figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
@@ -53,11 +53,11 @@
 
 <figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Отчет по обороту кэшбэка</summary>
+
+
+### Отчет по обороту кэшбэка
 
 <figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
@@ -88,11 +88,11 @@
 
 
 
-</details>
 
-<details>
 
-<summary>ABC XYZ анализ клиентов</summary>
+
+
+### ABC XYZ анализ клиентов
 
 <figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
@@ -135,4 +135,3 @@
 
 
 
-</details>

@@ -1,8 +1,8 @@
 # Categories
 
-<details open>
 
-<summary>Categories</summary>
+
+### Categories
 
 The Categories section organizes products and services and provides the ability to group them. This section ensures structured data management and efficient operation in the system.
 
@@ -37,4 +37,3 @@ The importance of categories in the system:
 Example:\
 If a "Electronics" category is created, subcategories such as "Phones", "Laptops" can be opened within it. This allows products to be managed more precisely and conveniently.
 
-</details>

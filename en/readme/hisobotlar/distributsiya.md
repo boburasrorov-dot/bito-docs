@@ -1,8 +1,8 @@
 # Distribution
 
-<details open>
 
-<summary>Visit Report</summary>
+
+### Visit Report
 
 <figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,4 +60,3 @@ Using this report, you can:
 * analyze sales conducted through visits
 * effectively manage the activities of sales agents
 
-</details>

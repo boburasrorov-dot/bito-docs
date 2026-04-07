@@ -1,8 +1,8 @@
 # Inventory
 
-<details open>
 
-<summary>Inventory</summary>
+
+### Inventory
 
 Through the Inventory section, the process of comparing warehouse product balances with the actual state and identifying discrepancies is carried out. This process ensures complete control over warehouse products and allows for the detection of accounting errors.
 
@@ -60,4 +60,3 @@ During the counting process, the user enters the actual quantity of products.
 
 <figure><img src="../../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure>
 
-</details>

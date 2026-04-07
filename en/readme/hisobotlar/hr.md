@@ -1,8 +1,8 @@
 # HR
 
-<details>
 
-<summary>Sales by Employee</summary>
+
+### Sales by Employee
 
 <figure><img src="../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
@@ -54,4 +54,3 @@ With this report, you can:
 * evaluate employee productivity in the sales process
 * determine the effectiveness of attracting new customers
 
-</details>

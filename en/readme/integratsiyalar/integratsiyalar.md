@@ -1,8 +1,8 @@
 # Integrations
 
-<details open>
 
-<summary>Integrations</summary>
+
+### Integrations
 
 The Integrations section allows you to connect the system with external services and platforms. Through this section, integrations with payment systems, banks, telephony services, and other services are established, and all processes are managed in a unified system.\
 This section is used to automate business processes, accelerate data exchange, and connect additional services to the system.
@@ -29,4 +29,3 @@ The following features are available for each integration:
 
 Through this section, you can automatically accept payments, synchronize with external systems, and accelerate operations.
 
-</details>

@@ -1,8 +1,8 @@
 # Warehouse
 
-<details>
 
-<summary>Product balance by organizations</summary>
+
+### Product balance by organizations
 
 <figure><img src="../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,11 +38,11 @@ Using this report, you can:
 * identify excess or shortage of products
 * optimize logistics and warehouse management
 
-</details>
 
-<details>
 
-<summary>Transfer report</summary>
+
+
+### Transfer report
 
 <figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
@@ -104,11 +104,11 @@ This report is used to monitor product movement between warehouses or within one
 * analyze reasons for product transfers
 * efficiently organize logistics and warehouse management
 
-</details>
 
-<details>
 
-<summary>View product range by time period</summary>
+
+
+### View product range by time period
 
 <figure><img src="../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
@@ -148,11 +148,11 @@ Using this report, you can:
 * track products in transfer process
 * analyze and plan warehouse inventory
 
-</details>
 
-<details>
 
-<summary>Recommended product quantity</summary>
+
+
+### Recommended product quantity
 
 <figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 
@@ -196,11 +196,11 @@ This report recommends how much product should be purchased or added to inventor
 * properly plan and purchase products
 * efficiently manage warehouse inventory
 
-</details>
 
-<details>
 
-<summary>Product receipt and issue</summary>
+
+
+### Product receipt and issue
 
 <figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
 
@@ -270,11 +270,11 @@ Using this report, you can:
 * monitor inventory results
 * efficiently organize product turnover and warehouse management
 
-</details>
 
-<details>
 
-<summary>Product balance by warehouse</summary>
+
+
+### Product balance by warehouse
 
 <figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 
@@ -312,11 +312,11 @@ Using this report, you can:
 * efficiently manage product inventory
 * identify shortage or excess of products
 
-</details>
 
-<details>
 
-<summary>Product balance by status</summary>
+
+
+### Product balance by status
 
 <figure><img src="../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 
@@ -392,11 +392,11 @@ Using this report, you can:
 * prevent inventory depletion
 * organize warehouse management more efficiently
 
-</details>
 
-<details>
 
-<summary>Product receipt</summary>
+
+
+### Product receipt
 
 <figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 
@@ -440,11 +440,11 @@ Using this report, you can:
 * track receipt costs of products
 * maintain warehouse records more accurately
 
-</details>
 
-<details>
 
-<summary>Write-off report</summary>
+
+
+### Write-off report
 
 <figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure>
 
@@ -483,4 +483,3 @@ Using this report, you can:
 * maintain warehouse records more accurately
 * make decisions to reduce product losses
 
-</details>

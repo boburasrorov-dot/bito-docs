@@ -1,8 +1,8 @@
 # Visit Plan
 
-<details open>
 
-<summary>Creating a Visit Plan</summary>
+
+### Creating a Visit Plan
 
 The Visit Plan section allows for advance planning of visits to be made by employees (agents) to customers. Through this section, the user can specify which agent will visit which customers, at what frequency, and manage them systematically. This section is used to optimize the sales process, organize customer relations, and monitor agent activities.
 
@@ -50,4 +50,3 @@ The main feature of this section is that it allows for clear and systematic plan
 
 
 
-</details>

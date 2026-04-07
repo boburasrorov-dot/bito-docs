@@ -1,8 +1,8 @@
 # Invoice
 
-<details open>
 
-<summary>Invoice</summary>
+
+### Invoice
 
 Through the **Invoice** section, financial operations related to customers are conducted. This section works similarly to the cash register, but operations are performed based on a **document (invoice)**.
 
@@ -31,4 +31,3 @@ In the invoice section, just like in the cash register:
 
 meaning full control of cash flows is possible here as well.
 
-</details>

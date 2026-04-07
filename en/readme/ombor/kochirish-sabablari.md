@@ -1,8 +1,8 @@
 # Transfer Reasons
 
-<details open>
 
-<summary>Creating transfer reasons</summary>
+
+### Creating transfer reasons
 
 Through the Transfer Reasons section, it is possible to organize and control product transfer processes between warehouses based on reasons. This section provides a detailed and systematic approach to each transfer operation.
 
@@ -23,4 +23,3 @@ The following information is entered:
 For example:\
 If a product is transferred from one warehouse to another with the reason "Transfer to reserve", later in reports it will be clearly visible exactly how much product was transferred for which reason.
 
-</details>

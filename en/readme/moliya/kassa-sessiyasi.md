@@ -1,8 +1,8 @@
 # Cash Register Session
 
-<details open>
 
-<summary>Cash Register Session</summary>
+
+### Cash Register Session
 
 The cash register session section manages and monitors the cash register's daily or specific time period operations. This section enables opening and closing the cash register, as well as analyzing all financial transactions conducted during the session.
 
@@ -45,4 +45,3 @@ This section displays each session in detail in a separate row:
 
 If a cashier opens the register at the beginning of the day with 1,000,000 UZS and sales are conducted throughout the day, the system calculates the final amount when the session closes. If there is a difference between the actual cash and the system amount, it is shown as a discrepancy and allows for review.
 
-</details>

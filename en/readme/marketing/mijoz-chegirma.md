@@ -1,8 +1,8 @@
 # Customer Discount
 
-<details open>
 
-<summary>Creating Customer Discount</summary>
+
+### Creating Customer Discount
 
 When entering **Marketing → Customer Discount**, a list of all discounts assigned to customers created in the system is displayed.
 
@@ -46,4 +46,3 @@ After all information is entered, the discount is saved and becomes valid for th
 
 As a result, the discount assigned to the customer is applied automatically or manually during the sales process. This serves to improve customer relations and increase sales.
 
-</details>

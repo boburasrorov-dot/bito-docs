@@ -1,8 +1,8 @@
 # Финансы
 
-<details>
 
-<summary>Отчет о доходах и расходах</summary>
+
+### Отчет о доходах и расходах
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
@@ -42,11 +42,11 @@
 * можно видеть, какие виды расходов являются наибольшими
 * можно оценить финансовое состояние бизнеса
 
-</details>
 
-<details>
 
-<summary>Отчет об обороте кассы</summary>
+
+
+### Отчет об обороте кассы
 
 <figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
@@ -96,11 +96,11 @@
 * можно отслеживать движение денег в разрезе дней
 * можно эффективно управлять финансовой деятельностью предприятия
 
-</details>
 
-<details>
 
-<summary>Отчет об обороте клиентов</summary>
+
+
+### Отчет об обороте клиентов
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
@@ -136,11 +136,11 @@
 * можно оценить платежную дисциплину клиентов
 * можно видеть разницу между продажами и платежами
 
-</details>
 
-<details>
 
-<summary>Отчет об обороте поставщиков</summary>
+
+
+### Отчет об обороте поставщиков
 
 <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
@@ -179,11 +179,11 @@
 * можно отслеживать платежи, осуществленные поставщикам
 * можно контролировать баланс между закупками и платежами
 
-</details>
 
-<details>
 
-<summary>Отчет об обороте сотрудников</summary>
+
+
+### Отчет об обороте сотрудников
 
 <figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
@@ -217,11 +217,11 @@
 * можно определить состояние задолженности с сотрудниками
 * можно упорядочить внутреннее финансовое движение
 
-</details>
 
-<details>
 
-<summary>Баланс клиентов</summary>
+
+
+### Баланс клиентов
 
 <figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
@@ -259,11 +259,11 @@
 * можно определить самых активных клиентов
 * можно видеть общий объем продаж клиентов
 
-</details>
 
-<details>
 
-<summary>Баланс сотрудников</summary>
+
+
+### Баланс сотрудников
 
 <figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
@@ -300,11 +300,11 @@
 * можно анализировать средства, возвращенные сотрудниками
 * можно определить состояние задолженности с сотрудниками
 
-</details>
 
-<details>
 
-<summary>Баланс поставщиков</summary>
+
+
+### Баланс поставщиков
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
@@ -342,11 +342,11 @@
 * можно отслеживать баланс между закупками и платежами
 * можно управлять финансовыми отношениями с поставщиками
 
-</details>
 
-<details>
 
-<summary>Баланс третьих лиц</summary>
+
+
+### Баланс третьих лиц
 
 <figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
@@ -384,11 +384,11 @@
 * можно управлять расчетами с внешними партнерами
 * можно анализировать общий финансовый баланс
 
-</details>
 
-<details>
 
-<summary>Себестоимость по категориям</summary>
+
+
+### Себестоимость по категориям
 
 <figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
@@ -418,11 +418,11 @@
 * можно контролировать расходы на производство или закупку
 * можно оценивать рентабельность в разрезе категорий
 
-</details>
 
-<details>
 
-<summary>Балансовый отчет</summary>
+
+
+### Балансовый отчет
 
 <figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
@@ -475,11 +475,11 @@
 * можно определять и управлять дебиторской задолженностью
 * можно контролировать состояние денежных средств в кассе
 
-</details>
 
-<details>
 
-<summary>Движение денежных средств</summary>
+
+
+### Движение денежных средств
 
 <figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
@@ -533,11 +533,11 @@
 * можно контролировать финансовую дисциплину
 * можно видеть реальный остаток денежных средств предприятия
 
-</details>
 
-<details>
 
-<summary>Кассовая сессия</summary>
+
+
+### Кассовая сессия
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 

@@ -1,8 +1,8 @@
 # Export Center
 
-<details open>
 
-<summary>Export Center</summary>
+
+### Export Center
 
 The Export Center section allows you to view all export processes performed in the system in a single location. Through this section, users can monitor what data has been exported, by whom, and when it was performed.
 
@@ -25,4 +25,3 @@ All exports are displayed in this section in table view.
 
 This section serves as a convenient tool for monitoring export processes, maintaining history, and re-downloading necessary files.
 
-</details>

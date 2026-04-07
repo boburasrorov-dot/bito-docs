@@ -1,8 +1,8 @@
 # Cash Register
 
-<details>
 
-<summary>Cash Register Window</summary>
+
+### Cash Register Window
 
 The **Cash Register** section serves to manage all cash flows in the organization in a centralized manner. Through this section, you can create cash registers, maintain their balance, perform income and expense operations, and track all financial transactions in real-time.
 
@@ -122,11 +122,11 @@ At the bottom of the window:
 
 <figure><img src="../../.gitbook/assets/image (440).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Making Income Entry to Cash Register</summary>
+
+
+### Making Income Entry to Cash Register
 
 Through the **Income** action, cash receipts are entered into the cash register. This action is used to formalize sales revenue, debt repayment, or other financial income.
 
@@ -166,11 +166,11 @@ After the income is saved:
 * a new record appears in the transactions table
 * the operation status becomes **Completed**
 
-</details>
 
-<details>
 
-<summary>Making Expense from Cash Register</summary>
+
+
+### Making Expense from Cash Register
 
 Through the **Expense** action, cash withdrawal from the cash register is formalized. This action is used to record expenses, payments to suppliers, or other financial expenditures in the system.
 
@@ -195,11 +195,11 @@ The following information is entered in the window:
 
 
 
-</details>
 
-<details>
 
-<summary>Transfer in Cash Register</summary>
+
+
+### Transfer in Cash Register
 
 Through the transfer action, funds from one cash register can be transferred to another. This function works **when 2 or more cash registers exist** in the system and is used to manage internal cash movements.
 
@@ -241,11 +241,11 @@ The transfer action works in two stages:
   * The money enters the receiving cash register as income
   * The operation status in both cash registers becomes **Completed**
 
-</details>
 
-<details>
 
-<summary>Exchange in Cash Register</summary>
+
+
+### Exchange in Cash Register
 
 In the cash register section, through the exchange action, funds can be converted **by currency** or **by payment method**. These actions are used for internal management and proper distribution of cash in the cash register.
 
@@ -337,4 +337,3 @@ For example:\
 
 <figure><img src="../../.gitbook/assets/image (448).png" alt=""><figcaption></figcaption></figure>
 
-</details>

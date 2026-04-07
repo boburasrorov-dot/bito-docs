@@ -1,8 +1,8 @@
 # CRM
 
-<details>
 
-<summary>Sales by Customer</summary>
+
+### Sales by Customer
 
 <figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
 
@@ -29,11 +29,11 @@ Using this report, you can identify top-selling customers, analyze revenue by cu
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Customer Activity</summary>
+
+
+### Customer Activity
 
 <figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
@@ -53,11 +53,11 @@ Using this report, you can identify active customers, find customers who haven't
 
 <figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Cashback Turnover Report</summary>
+
+
+### Cashback Turnover Report
 
 <figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
@@ -88,11 +88,11 @@ If a customer earns **1000 som cashback** through a sale and then uses that cash
 
 
 
-</details>
 
-<details>
 
-<summary>Customer ABC XYZ Analysis</summary>
+
+
+### Customer ABC XYZ Analysis
 
 <figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
 
@@ -135,4 +135,3 @@ The table displays the following data:
 
 
 
-</details>

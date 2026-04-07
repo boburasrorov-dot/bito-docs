@@ -1,8 +1,8 @@
 # Customers
 
-<details>
 
-<summary>Customer database</summary>
+
+### Customer database
 
 When navigating to **CRM → Customers**, the system displays a list of all customers.
 
@@ -14,11 +14,11 @@ The customer list displays key information for each customer, such as: name, pho
 
 <figure><img src="../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Category</summary>
+
+
+### Category
 
 When navigating to **CRM → Categories**, the system displays a list of all created customer categories.
 
@@ -40,11 +40,11 @@ After the category is created, you can assign customers to this category.
 
 
 
-</details>
 
-<details>
 
-<summary>Creating a customer</summary>
+
+
+### Creating a customer
 
 When the Create button is pressed in the CRM → Customers section, a new customer addition window opens.
 
@@ -106,11 +106,11 @@ As a result, all customer information is stored in a unified system, making the 
 
 
 
-</details>
 
-<details>
 
-<summary>Customer window</summary>
+
+
+### Customer window
 
 **When clicking on a customer in the CRM → Customers section**, their complete information opens.
 
@@ -574,11 +574,11 @@ Through this, you can monitor what messages were exchanged with the customer and
 • Check which message was delivered\
 • See effectiveness of marketing and reminders
 
-</details>
 
-<details>
 
-<summary>Viewing customers on map</summary>
+
+
+### Viewing customers on map
 
 When navigating to **CRM → View customers on map**, all customers in the system are displayed on the map with their locations.
 
@@ -623,4 +623,3 @@ If there are multiple customers in one area, they are grouped and shown under on
 
 
 
-</details>

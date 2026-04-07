@@ -1,8 +1,8 @@
 # Photo Report Type
 
-<details open>
 
-<summary>Photo Report Type</summary>
+
+### Photo Report Type
 
 The Photo Report Type section allows you to create and manage types (categories) for photo reports submitted by agents. Through this section, the user pre-defines what types of photos are required from agents. For example, types such as "Product Photo" or "Store Photo" are created, and the agent is required to upload exactly these types of photos during the visit process. This section is used to strengthen control and improve visit quality.
 
@@ -47,4 +47,3 @@ The main feature of this section is that it sets standard requirements for agent
 
 As a result, the company establishes visual control in the visit process, creates the opportunity to check agents' work more accurately, and report quality improves significantly.
 
-</details>

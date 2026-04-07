@@ -1,8 +1,8 @@
 # Write-off Reasons
 
-<details open>
 
-<summary>Write-off Reasons</summary>
+
+### Write-off Reasons
 
 The Write-off Reasons section maintains a list of reasons used when writing off products from the warehouse. These reasons are subsequently selected during the write-off process and clearly indicate why a product was removed from the warehouse.
 
@@ -29,4 +29,3 @@ Active status — whether the reason is active or inactive
 
 <figure><img src="../../.gitbook/assets/image (368).png" alt=""><figcaption></figcaption></figure>
 
-</details>

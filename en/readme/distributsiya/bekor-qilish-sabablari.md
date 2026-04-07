@@ -1,8 +1,8 @@
 # Cancellation Reasons
 
-<details open>
 
-<summary>Creating Cancellation Reasons</summary>
+
+### Creating Cancellation Reasons
 
 The cancellation reasons section allows you to predefine reasons in the system when visits or operations are cancelled. Through this section, the user standardizes the cancellation process and forms a clear database of reasons for later analysis. This section is important for control, reporting, and analysis processes.
 
@@ -39,4 +39,3 @@ The main feature of this section is that it allows systematic collection of reas
 
 
 
-</details>

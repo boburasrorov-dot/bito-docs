@@ -1,8 +1,8 @@
 # Sales Reports
 
-<details>
 
-<summary>Overall Sales</summary>
+
+### Overall Sales
 
 <figure><img src="../../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
@@ -39,11 +39,11 @@ This page serves to view sales volume, returns, discounts, and profit indicators
 
 
 
-</details>
 
-<details>
 
-<summary>Sales by Products</summary>
+
+
+### Sales by Products
 
 <figure><img src="../../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
@@ -80,11 +80,11 @@ At the bottom of the table:
 * **Total** — shows overall results across all products for the selected filter. This allows quick assessment of overall sales and profit situation.
 * **Forecast** — estimated indicators calculated based on available data. This serves to assess future results in advance and plan accordingly.
 
-</details>
 
-<details>
 
-<summary>Sales by Category</summary>
+
+
+### Sales by Category
 
 <figure><img src="../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
 
@@ -113,11 +113,11 @@ This report helps the business identify which product categories are generating 
 
 
 
-</details>
 
-<details>
 
-<summary>Sales by Payment Type</summary>
+
+
+### Sales by Payment Type
 
 <figure><img src="../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
@@ -137,11 +137,11 @@ This page allows analyzing:
 * Volume of debt (credit sales)
 * Profit level by each payment type
 
-</details>
 
-<details>
 
-<summary>Product Sales</summary>
+
+
+### Product Sales
 
 <figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
@@ -175,11 +175,11 @@ The first part of the table contains the following columns:
 
 
 
-</details>
 
-<details>
 
-<summary>Customer Sales</summary>
+
+
+### Customer Sales
 
 <figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
@@ -202,11 +202,11 @@ This report is an important tool for analyzing work with customers, identifying 
 
 
 
-</details>
 
-<details>
 
-<summary>Sales by Customers</summary>
+
+
+### Sales by Customers
 
 <figure><img src="../../.gitbook/assets/photo_2026-04-03_14-50-36.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -240,11 +240,11 @@ Through this feature, you can see in detail exactly which products were sold in 
 
 <figure><img src="../../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Non-Selling Products Report</summary>
+
+
+### Non-Selling Products Report
 
 <figure><img src="../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>
 
@@ -261,11 +261,11 @@ At the bottom of the table is the **Total** row, which shows the total quantity 
 
 <figure><img src="../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Agent Report</summary>
+
+
+### Agent Report
 
 <figure><img src="../../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure>
 
@@ -285,11 +285,11 @@ Through the **Agents Report**, you can analyze the activities of agents (salespe
 
 <figure><img src="../../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Customer Payments</summary>
+
+
+### Customer Payments
 
 <figure><img src="../../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure>
 
@@ -318,4 +318,3 @@ The lower table section shows detailed information for each contract:
 
 This report allows managing not only products sold on credit, but all customer payments. Even if the sale is not on credit, it will be reflected in the **contract**, **initial payment**, **payments**, and **completed contracts** sections. Through this, all customer payments can be controlled in one place.
 
-</details>

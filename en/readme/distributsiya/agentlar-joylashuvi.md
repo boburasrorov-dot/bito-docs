@@ -1,8 +1,8 @@
 # Agent Locations
 
-<details open>
 
-<summary>Viewing Agent Locations</summary>
+
+### Viewing Agent Locations
 
 The Agent Locations section provides the ability to track agents' geographic locations via map in near real-time. Through this section, users can visually monitor where agents are located, their activity status, and the progress of visit execution. This section serves as an important tool for logistics, control, and operational management.
 
@@ -47,4 +47,3 @@ The Reports tab displays general statistical indicators:
 
 The main feature of this section is that it presents agent activity in visual form through the map and simultaneously provides near real-time monitoring capability. This enables managers to control agent movements, assess efficiency, and make prompt decisions.
 
-</details>

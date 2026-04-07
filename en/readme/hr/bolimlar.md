@@ -1,8 +1,8 @@
 # Departments
 
-<details open>
 
-<summary>Departments</summary>
+
+### Departments
 
 **The Departments section** serves to form the structure within the company and properly distribute employees. Through this section, departments within the organization (for example: Sales, Finance, Logistics, etc.) are created and connected to each other in a hierarchical manner. This simplifies employee management and creates an orderly structure in the system.
 
@@ -44,4 +44,3 @@ Through this section, the hierarchy (structure) within the company is formed. As
 
 If a parent department is selected, the system automatically creates a connection between departments (parent-child structure). This enables the creation of a multi-level organizational structure.
 
-</details>

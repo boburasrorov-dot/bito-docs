@@ -1,8 +1,8 @@
 # Profile Settings
 
-<details>
 
-<summary>Editing Personal Information</summary>
+
+### Editing Personal Information
 
 To access the profile window, click on the username located in the upper right corner of the system. From the opened menu, select the **Profile** section.
 
@@ -24,11 +24,11 @@ Enter and save the information
 
 <figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Changing Password (while logged in)</summary>
+
+
+### Changing Password (while logged in)
 
 After logging into the system, users can update their password.
 
@@ -46,11 +46,11 @@ For security purposes, it is recommended to use a strong password.
 
 <figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Changing PIN Code (for mobile application)</summary>
+
+
+### Changing PIN Code (for mobile application)
 
 A PIN code is used for quick access through the mobile application.
 
@@ -68,11 +68,11 @@ Note: The PIN code is only used for accessing the mobile application.
 
 
 
-</details>
 
-<details>
 
-<summary>Lock</summary>
+
+
+### Lock
 
 When the **Lock** button in the profile menu is pressed, the system is temporarily blocked.
 
@@ -86,11 +86,11 @@ This function ensures security when the user temporarily leaves the computer.
 
 <figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Logout</summary>
+
+
+### Logout
 
 When the **Logout** button is pressed, the user completely exits the system.
 
@@ -101,4 +101,3 @@ When the **Logout** button is pressed, the user completely exits the system.
 
 
 
-</details>

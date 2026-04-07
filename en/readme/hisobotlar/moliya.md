@@ -1,8 +1,8 @@
 # Finance
 
-<details>
 
-<summary>Income-Expense Report</summary>
+
+### Income-Expense Report
 
 <figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
@@ -46,11 +46,11 @@ Using this report:
 * you can see which types of expenses are higher
 * you can assess the financial condition of the business
 
-</details>
 
-<details>
 
-<summary>Cash Turnover Report</summary>
+
+
+### Cash Turnover Report
 
 <figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
@@ -102,11 +102,11 @@ Using this report:
 * you can track cash movement by day
 * you can effectively manage the enterprise's financial operations
 
-</details>
 
-<details>
 
-<summary>Customer Turnover Report</summary>
+
+
+### Customer Turnover Report
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
@@ -144,11 +144,11 @@ Using this report:
 * you can assess customers' payment discipline
 * you can see the difference between sales and payments
 
-</details>
 
-<details>
 
-<summary>Supplier Turnover Report</summary>
+
+
+### Supplier Turnover Report
 
 <figure><img src="../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
@@ -191,11 +191,11 @@ Using this report:
 * you can track payments made to suppliers
 * you can control the balance between purchases and payments
 
-</details>
 
-<details>
 
-<summary>Employee Turnover Report</summary>
+
+
+### Employee Turnover Report
 
 <figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
@@ -235,11 +235,11 @@ Using this report:
 
 
 
-</details>
 
-<details>
 
-<summary>Customer Balance</summary>
+
+
+### Customer Balance
 
 <figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
@@ -279,11 +279,11 @@ Using this report:
 * you can identify the most active customers
 * you can see customers' total sales volume
 
-</details>
 
-<details>
 
-<summary>Employee Balance</summary>
+
+
+### Employee Balance
 
 <figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
@@ -322,11 +322,11 @@ Using this report:
 * you can analyze funds returned by employees
 * you can identify debt status with employees
 
-</details>
 
-<details>
 
-<summary>Supplier Balance</summary>
+
+
+### Supplier Balance
 
 <figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
@@ -368,11 +368,11 @@ Using this report:
 * you can track the balance between purchases and payments
 * you can manage financial relations with suppliers
 
-</details>
 
-<details>
 
-<summary>Third Party Balance</summary>
+
+
+### Third Party Balance
 
 <figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
@@ -414,11 +414,11 @@ Using this report:
 * you can manage settlements with external partners
 * you can analyze overall financial balance
 
-</details>
 
-<details>
 
-<summary>Cost by Category</summary>
+
+
+### Cost by Category
 
 <figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
@@ -452,11 +452,11 @@ Using this report:
 * you can control production or purchase expenses
 * you can assess profitability by category
 
-</details>
 
-<details>
 
-<summary>Balance Sheet Report</summary>
+
+
+### Balance Sheet Report
 
 <figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
@@ -513,11 +513,11 @@ Using this report:
 * you can identify and manage accounts receivable
 * you can control cash fund status
 
-</details>
 
-<details>
 
-<summary>Cash Flow</summary>
+
+
+### Cash Flow
 
 <figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
@@ -575,11 +575,11 @@ Expenses may include:
 * you can control financial discipline
 * you can see the enterprise's real cash balance
 
-</details>
 
-<details>
 
-<summary>Cash Session</summary>
+
+
+### Cash Session
 
 <figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
@@ -635,11 +635,11 @@ Using this report:
 
 
 
-</details>
 
-<details>
 
-<summary>ABC Analysis</summary>
+
+
+### ABC Analysis
 
 <figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
@@ -721,4 +721,3 @@ Using this report:
 * you can focus more on the most important products
 * you can analyze product assortment
 
-</details>

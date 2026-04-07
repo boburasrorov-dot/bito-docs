@@ -1,8 +1,8 @@
 # Дистрибуция
 
-<details open>
 
-<summary>Отчет по визитам</summary>
+
+### Отчет по визитам
 
 <figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,4 +60,3 @@
 * анализировать продажи, совершенные через визиты
 * эффективно управлять деятельностью торговых агентов
 
-</details>

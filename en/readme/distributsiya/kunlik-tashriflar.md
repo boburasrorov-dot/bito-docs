@@ -1,8 +1,8 @@
 # Daily Visits
 
-<details open>
 
-<summary>Daily Visits</summary>
+
+### Daily Visits
 
 The Daily Visits section allows you to view visits scheduled to be performed by agents for a selected date. Through this section, the user can review which agent should visit which customers on a specific day, monitor them, and effectively manage the daily workflow. This section serves as an important tool for operational control and daily planning.
 
@@ -36,4 +36,3 @@ The main feature of this section is that it works within a single date range and
 
 As a result, control over agent activities is strengthened, visits are performed on time, and the customer interaction process becomes more systematic and efficient.
 
-</details>

@@ -1,8 +1,8 @@
 # Main Interface
 
-<details>
 
-<summary>Top Panel (Header)</summary>
+
+### Top Panel (Header)
 
 **Branch Selection**\
 Designed for companies working with multiple branches. All data is filtered based on the selected branch.
@@ -53,11 +53,11 @@ Press this button to open guides on using BITO
 
 <figure><img src="../../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Side Menu (Navigation Panel)</summary>
+
+
+### Side Menu (Navigation Panel)
 
 The side menu is used to navigate between system modules.
 
@@ -90,11 +90,11 @@ Each module also has its own sub-modules, meaning actions that are part of that 
 
 
 
-</details>
 
-<details>
 
-<summary>Table View</summary>
+
+
+### Table View
 
 On most pages, data is displayed in this table format.
 
@@ -124,11 +124,11 @@ Purpose: convenient management of large volumes of data.
 
 
 
-</details>
 
-<details>
 
-<summary>Filtering</summary>
+
+
+### Filtering
 
 The filtering function in BITO helps find the needed data quickly and accurately. Each table page has filters available, allowing users to sort data by date, status, responsible person, warehouse, customer, and other columns.
 
@@ -170,4 +170,3 @@ If a user does not want to change the general view for all pages, they can selec
 
 <figure><img src="../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
-</details>

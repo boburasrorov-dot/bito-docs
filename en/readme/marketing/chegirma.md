@@ -1,8 +1,8 @@
 # Discount
 
-<details open>
 
-<summary>Creating a Discount</summary>
+
+### Creating a Discount
 
 When accessing the **Discount** page in the Marketing section, a list of all discounts created in the system is displayed. Through this section, you can view existing discounts, edit them, and create new discounts.
 
@@ -42,4 +42,3 @@ An automatic discount is applied in a sale like this:
 
 As a result, the created discounts are applied automatically or manually during sales, which helps in flexible price management and effective promotion campaigns.
 
-</details>

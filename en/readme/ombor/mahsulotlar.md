@@ -1,8 +1,8 @@
 # Products
 
-<details>
 
-<summary>Creating Products</summary>
+
+### Creating Products
 
 The Products section enables the creation, editing, and management of all warehouse products. This section serves to store basic product information and link them with warehouse, sales, and other processes.
 
@@ -50,11 +50,11 @@ In this section, parameters related to warehouse and sales can be configured:
 
 Through this section, products are fully managed and serve as the foundation for subsequent processes (receipts, issues, inventory, sales).
 
-</details>
 
-<details>
 
-<summary>Creating Variant Products</summary>
+
+
+### Creating Variant Products
 
 If a product is available in multiple variants (e.g., color, size, etc.), they can be managed through variants within a single product rather than as separate products.
 
@@ -106,11 +106,11 @@ Using this function achieves the following:
 
 As a result, product management through variants reaches a professional level, and warehouse and sales processes operate much more accurately and quickly.
 
-</details>
 
-<details>
 
-<summary>Creating Serialized Products</summary>
+
+
+### Creating Serialized Products
 
 If the **"Serialized Product"** toggle switch is enabled when creating a product, each unit of this product is tracked with a **unique identification (serial number)**.
 
@@ -158,11 +158,11 @@ Benefits:
 
 This functionality is typically applied for **electronics stores, electronics sales, and products that work with serial numbers**.
 
-</details>
 
-<details>
 
-<summary>Creating Products with Expiry Dates</summary>
+
+
+### Creating Products with Expiry Dates
 
 <figure><img src="../../.gitbook/assets/image (387).png" alt=""><figcaption></figcaption></figure>
 
@@ -203,4 +203,3 @@ This plays an important role in quality control and reducing losses.
 
 
 
-</details>

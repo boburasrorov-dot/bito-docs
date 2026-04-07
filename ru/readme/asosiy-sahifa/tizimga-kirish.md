@@ -1,8 +1,8 @@
 # Вход в систему
 
-<details>
 
-<summary>Выбор языка перед входом в систему</summary>
+
+### Выбор языка перед входом в систему
 
 Перед входом в систему BITO вы можете выбрать язык интерфейса.
 
@@ -15,11 +15,11 @@
 
 <figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Вход по номеру телефона и паролю</summary>
+
+
+### Вход по номеру телефона и паролю
 
 Для входа в систему требуется:
 
@@ -42,11 +42,11 @@
 
 <figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Восстановление пароля</summary>
+
+
+### Восстановление пароля
 
 Если вы забыли пароль, можете самостоятельно восстановить его.
 
@@ -64,11 +64,11 @@
 
 <figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
-</details>
 
-<details>
 
-<summary>Вход через одноразовый пароль (SMS)</summary>
+
+
+### Вход через одноразовый пароль (SMS)
 
 В системе BITO пользователь может войти в систему также через **одноразовый SMS-код**, не вводя пароль.
 
@@ -82,4 +82,3 @@
 
 <figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
-</details>

@@ -1,8 +1,8 @@
 # Price List
 
-<details open>
 
-<summary>Price List </summary>
+
+### Price List 
 
 The Price List section allows you to view all products in the system and their prices in a single table format. Through this section, users can quickly review prices by product, compare them, and control the overall pricing policy.
 
@@ -27,4 +27,3 @@ Table columns:
 
 This section displays all prices by products in one place and provides users with the ability to manage prices in an overall view and perform quick analysis.
 
-</details>

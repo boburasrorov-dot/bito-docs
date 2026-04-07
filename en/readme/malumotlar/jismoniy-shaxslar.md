@@ -1,8 +1,8 @@
 # Individuals
 
-<details open>
 
-<summary>Creating Individuals</summary>
+
+### Creating Individuals
 
 The Individuals section allows you to store and manage information about customers (individual persons) in the system. Through this section, users can register customers and maintain their personal and contact information in a unified database. This information is actively used in sales, cashback, debt, and other processes.
 
@@ -36,4 +36,3 @@ In this section, all individuals are displayed in table view.
 
 Through this section, a customer database is formed and this information is used in other sections (for example, sales or marketing). Therefore, users can enter customer information once and reuse it in all subsequent processes. This speeds up work in the system and ensures data accuracy.
 
-</details>
