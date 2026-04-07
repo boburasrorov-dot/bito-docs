@@ -1,8 +1,3 @@
----
-description: >-
-  This section provides information about product sales processes, sales documents, and customer-related operations.
----
-
 # Sales
 
 <details>

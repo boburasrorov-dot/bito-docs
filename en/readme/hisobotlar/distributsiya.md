@@ -1,7 +1,3 @@
----
-description: Analytical reports on distribution processes and visit activities.
----
-
 # Distribution
 
 <details open>

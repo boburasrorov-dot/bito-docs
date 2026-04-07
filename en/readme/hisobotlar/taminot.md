@@ -1,7 +1,3 @@
----
-description: Analytical reports on product cost and procurement expenses.
----
-
 # Procurement
 
 <details>

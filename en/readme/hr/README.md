@@ -1,22 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
----
-
 # HR
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Employees</strong></h4></td><td>Used to manage all employees in the system, configure their information, roles, and system access permissions.</td><td><a href="xodimlar.md">xodimlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 minutes</mark></sub></td><td><h4><strong>Departments</strong></h4></td><td>Used to create the company's internal structure, organize departments hierarchically, and assign employees to departments.</td><td><a href="bolimlar.md">bolimlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 minutes</mark></sub></td><td><h4>Positions</h4></td><td>Used to define employee duties and roles, link them to specific departments, and integrate with permissions.</td><td><a href="lavozimlar.md">lavozimlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 20 minutes</mark></sub></td><td><h4><strong>Permissions</strong></h4></td><td>Used to manage system capabilities for employees or positions, defining which modules and actions they can access.</td><td><a href="ruxsatlar.md">ruxsatlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 20 minutes</mark></sub></td><td><h4><strong>KPI</strong></h4></td><td>Used to evaluate employee performance and automatically calculate bonuses and incentives based on their results.</td><td><a href="kpi.md">kpi.md</a></td></tr></tbody></table>

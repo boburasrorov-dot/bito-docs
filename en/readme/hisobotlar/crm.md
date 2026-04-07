@@ -1,7 +1,3 @@
----
-description: Analytical reports on customer sales, activity, and segmentation.
----
-
 # CRM
 
 <details>

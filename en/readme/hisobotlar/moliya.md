@@ -1,7 +1,3 @@
----
-description: Financial reports on income, expenses, and balance indicators.
----
-
 # Finance
 
 <details>

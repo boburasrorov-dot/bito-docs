@@ -1,8 +1,3 @@
----
-description: >-
-  This section allows users to manage their personal information and security settings.
----
-
 # Profile Settings
 
 <details>

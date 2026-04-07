@@ -1,7 +1,3 @@
----
-description: Detailed analytical reports on product balances and warehouse movements.
----
-
 # Warehouse
 
 <details>

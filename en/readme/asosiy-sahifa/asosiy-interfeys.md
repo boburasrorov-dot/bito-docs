@@ -1,9 +1,3 @@
----
-description: >-
-  This section explains the main interface of the BITO system and its operation procedures.
-  The interface allows users to navigate quickly and conveniently between modules.
----
-
 # Main Interface
 
 <details>

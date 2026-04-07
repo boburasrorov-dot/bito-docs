@@ -1,22 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
----
-
 # Data
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 10 daqiqa</mark></sub></td><td><h4><strong>Prices</strong> </h4></td><td>Section for setting, editing, and managing prices for products and services.</td><td><a href="narxlar.md">narxlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 daqiqa</mark></sub></td><td><h4><strong>Legal Entities</strong></h4></td><td>Registering company and organizational clients, working with them, and managing accounting.</td><td><a href="yuridik-shaxslar.md">yuridik-shaxslar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 daqiqa</mark></sub></td><td><h4><strong>Individuals</strong></h4></td><td>Storing regular customer data, managing their purchases and balance.</td><td><a href="jismoniy-shaxslar.md">jismoniy-shaxslar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 daqiqa</mark></sub></td><td><h4>Manufacturer </h4></td><td>Managing and maintaining information about product manufacturing companies.</td><td><a href="ishlab-chiqaruvchi.md">ishlab-chiqaruvchi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 daqiqa</mark></sub></td><td><h4><strong>Brand</strong></h4></td><td>Creating and organizing product brands to facilitate filtering by them.</td><td><a href="brend.md">brend.md</a></td></tr></tbody></table>

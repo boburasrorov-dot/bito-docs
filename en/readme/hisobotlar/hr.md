@@ -1,7 +1,3 @@
----
-description: Analytical reports on employee activity and sales performance.
----
-
 # HR
 
 <details>

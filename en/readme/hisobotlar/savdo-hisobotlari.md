@@ -1,8 +1,3 @@
----
-description: >-
-  This section contains all the main analytical reports on sales processes.
----
-
 # Sales Reports
 
 <details>

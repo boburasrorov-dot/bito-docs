@@ -1,8 +1,3 @@
----
-description: >-
-  This section provides step-by-step instructions on how to log into the BITO ERP system, including language selection, authentication via phone number and password, and the password recovery process.
----
-
 # System Login
 
 <details>

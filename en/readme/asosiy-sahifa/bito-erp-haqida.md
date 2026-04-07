@@ -1,8 +1,3 @@
----
-description: >-
-  This section provides general information about the purpose of Bito ERP system, its main features, and its role in automating business processes.
----
-
 # About Bito ERP
 
 <details>

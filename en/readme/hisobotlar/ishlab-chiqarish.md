@@ -1,7 +1,3 @@
----
-description: Analytical reports on production processes and product volumes.
----
-
 # Production
 
 <details>

@@ -1,22 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
-  tags:
-    visible: true
----
-
 # Procurement
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Purchase Requests</strong></h4></td><td>Requests are created to form product needs and initiate the purchasing process.</td><td><a href="sotib-olish-sorovlari.md">sotib-olish-sorovlari.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Purchase Order</strong></h4></td><td>Used to place formal orders to suppliers and plan the purchasing process.</td><td><a href="xarid-buyurtmasi.md">xarid-buyurtmasi.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 25 minutes</mark></sub></td><td><h4><strong>Purchase</strong></h4></td><td>The process of receiving products, accounting, and finalizing the purchase operation.</td><td><a href="xaridlar.md">xaridlar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 15 minutes</mark></sub></td><td><h4><strong>Returns</strong></h4></td><td>The process of returning purchased products to suppliers and writing them off from records.</td><td><a href="qaytarish.md">qaytarish.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 minutes</mark></sub></td><td><h4><strong>Suppliers</strong></h4></td><td>Maintaining a list of partner suppliers and managing work with them.</td><td><a href="yetkazib-beruvchilar.md">yetkazib-beruvchilar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 10 minutes</mark></sub></td><td><h4><strong>Categories</strong></h4></td><td>Creating categories for grouping suppliers and systematic management.</td><td><a href="kategoriyalar.md">kategoriyalar.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 minutes</mark></sub></td><td><h4><strong>Purchase Reasons</strong></h4></td><td>Allows specifying purchase reasons and analyzing them later.</td><td><a href="sotib-olish-sabablari.md">sotib-olish-sabablari.md</a></td></tr><tr><td><sub><mark style="color:$info;">🕔 ~ 5 minutes</mark></sub></td><td><h4><strong>Return Reasons</strong></h4></td><td>Used to identify product return reasons and analyze issues.</td><td><a href="qaytarish-sabablari.md">qaytarish-sabablari.md</a></td></tr></tbody></table>
