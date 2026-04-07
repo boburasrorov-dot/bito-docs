@@ -11,7 +11,6 @@ on:
         options:
           - ru
           - en
-
   push:
     branches:
       - main
@@ -20,30 +19,28 @@ on:
 
 jobs:
   translate:
-    name: Translate Uzbek → ${{ github.event.inputs.language || 'ru' }}
     runs-on: ubuntu-latest
     timeout-minutes: 120
-
     permissions:
       contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Translate pages
+      - run: pip install requests
+      - name: Translate
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PYTHONUNBUFFERED: "1"
           TARGET_LANG: ${{ github.event.inputs.language || 'ru' }}
         run: python -u scripts/translate.py
+      - name: Save to GitHub
+        run: |
+          git config user.email "bot@bito.uz"
+          git config user.name "BITO Translator Bot"
+          git add ru/ en/
+          git diff --staged --quiet || (git commit -m "Auto-translate: update docs" && git push)
